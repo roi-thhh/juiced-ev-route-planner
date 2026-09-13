@@ -1,0 +1,3862 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Bolt.Earth Type-6 DC Fast Chargers - Kerala & Tamil Nadu",
+    "count": 183,
+    "kerala_count": 171,
+    "tamil_nadu_count": 12,
+    "connector_standard": "Type-6 DC Fast (IS 17017 Part 2, Section 6)",
+    "operator": "Bolt.Earth",
+    "bbox": [
+      75.0,
+      8.0,
+      80.5,
+      13.5
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "L1DC0036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942884,
+          8.552551
+        ]
+      },
+      "properties": {
+        "id": "L1DC0036",
+        "name": "Bolt.Earth Station (695015) - L1DC0036",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "695015,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.942915,
+          8.552623
+        ]
+      },
+      "properties": {
+        "id": "L1DC0035",
+        "name": "EngineerMode Private Limited",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "EngineerMode Private Limited, SmartSolar 2Nd floor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.943021,
+          8.55264
+        ]
+      },
+      "properties": {
+        "id": "L1DC0144",
+        "name": "N/16390",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "N/16390, SH1, Aradhana Nagar",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0276",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.974163,
+          8.49211
+        ]
+      },
+      "properties": {
+        "id": "L1DC0276",
+        "name": "Shastri Nagar",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Shastri Nagar, Poojapura",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.964156,
+          8.481265
+        ]
+      },
+      "properties": {
+        "id": "L1DC0428",
+        "name": "Door No 46/2406",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Door No 46/2406, Ravel Building, Karamana - Poojapura Rd, Prem Nagar, Karamana, Thiruvananthapuram, Kerala 695002",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.964101,
+          8.481034
+        ]
+      },
+      "properties": {
+        "id": "L1DC0430",
+        "name": "Door No 46/2406",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Door No 46/2406, Ravel Building, Karamana - Poojapura Rd, Prem Nagar, Karamana, Thiruvananthapuram, Kerala 695002",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0595",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.875755,
+          8.542146
+        ]
+      },
+      "properties": {
+        "id": "L1DC0595",
+        "name": "Tc:2305/1",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Tc:2305/1,kulathoor,trivandrum 695583",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0589",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.876021,
+          8.556885
+        ]
+      },
+      "properties": {
+        "id": "L1DC0589",
+        "name": "Athira bhavan pvra47",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Athira bhavan pvra47, opp technopark phase I, kazhakootam, trivandrum Kerala 695582",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.898022,
+          8.734444
+        ]
+      },
+      "properties": {
+        "id": "L1DC0027",
+        "name": "PVMX+Q5H",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "PVMX+Q5H, Karette, Kerala 695612",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.687017,
+          8.838668
+        ]
+      },
+      "properties": {
+        "id": "L1DC0037",
+        "name": "Akshaya  EV Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Akshaya  EV Charging Station, Akshaya Centre,MLA jn Nedungolam PO Paravoor Chathannoor  Road, Kollam,\u00a0Pin:\u00a0691334",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0439",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.698483,
+          8.802395
+        ]
+      },
+      "properties": {
+        "id": "L1DC0439",
+        "name": "Thiruvonam. Veppalinmoodu.",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Thiruvonam. Veppalinmoodu.",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.710729,
+          8.727772
+        ]
+      },
+      "properties": {
+        "id": "L1DC0123",
+        "name": "Bolt.Earth Station (695141) - L1DC0123",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "695141,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0772",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.081235,
+          8.40805
+        ]
+      },
+      "properties": {
+        "id": "L1DC0772",
+        "name": "TB Junction-Hospital Junction Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "TB Junction-Hospital Junction Road, Vazhuthoor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.088783,
+          8.394397
+        ]
+      },
+      "properties": {
+        "id": "L1DC0191",
+        "name": "25/66",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "25/66, Poovar - Neyyatinkara Road, Alummoodu",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0581",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.081732,
+          8.375908
+        ]
+      },
+      "properties": {
+        "id": "L1DC0581",
+        "name": "BSR Fast Charging Center",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "BSR Fast Charging Center, Olathanni Neyyattinkara 695121",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.061835,
+          8.393112
+        ]
+      },
+      "properties": {
+        "id": "L1DC0091",
+        "name": "Santhy sabarimuttam kamukincode kodangavila PO with Pincode 695123 kamukincode opp:canara bank",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Santhy sabarimuttam kamukincode kodangavila PO with Pincode 695123 kamukincode opp:canara bank",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.045446,
+          8.442731
+        ]
+      },
+      "properties": {
+        "id": "L1DC0064",
+        "name": "Bolt.Earth Station (695528) - L1DC0064",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "695528,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0769",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.069309,
+          8.462869
+        ]
+      },
+      "properties": {
+        "id": "L1DC0769",
+        "name": "Neyyattinkara Kattakkada Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Neyyattinkara Kattakkada Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.04358,
+          8.592898
+        ]
+      },
+      "properties": {
+        "id": "L1DC0155",
+        "name": "Electric Spares & Service",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Electric Spares & Service, near SBI, puthukulangara, Nedumangad, Thiruvananthapuran,\u00a0Kerala\u00a0695541",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.005247,
+          8.468997
+        ]
+      },
+      "properties": {
+        "id": "L1DC0158",
+        "name": "Bolt.Earth Station (695019) - L1DC0158",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "695019,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.00485,
+          8.469067
+        ]
+      },
+      "properties": {
+        "id": "L1DC0124",
+        "name": "Bolt.Earth Station (695019) - L1DC0124",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "695019,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.53661,
+          9.046038
+        ]
+      },
+      "properties": {
+        "id": "L1DC0063",
+        "name": "Best EV Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Best EV Charging Station, Old NH, Karunagapally,\u00a0690518",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0196",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6731,
+          9.081225
+        ]
+      },
+      "properties": {
+        "id": "L1DC0196",
+        "name": "Reneva Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Reneva Charging Station,  MileNo.7 Convection Centre, Kadampanad, Kerala, 691553",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.709086,
+          9.180407
+        ]
+      },
+      "properties": {
+        "id": "L1DC0202",
+        "name": "Aditya Green Power Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Aditya Green Power Charging Station, MC Road, 691554",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.687993,
+          9.208784
+        ]
+      },
+      "properties": {
+        "id": "L1DC0134",
+        "name": "Kottarakkara - Kottayam Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kottarakkara - Kottayam Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.600164,
+          9.198891
+        ]
+      },
+      "properties": {
+        "id": "L1DC0139",
+        "name": "Artemis EV Supercharger Chunakara Naduvil Charummoodu Alappuzha District Kerala Pin 690534",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Artemis EV Supercharger Chunakara Naduvil Charummoodu Alappuzha District Kerala Pin 690534",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.530729,
+          9.283259
+        ]
+      },
+      "properties": {
+        "id": "L1DC0166",
+        "name": "Mannil Green Charging StationKayamkulam Thiruvalla Road Mavelikkara Alappuzha",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Mannil Green Charging StationKayamkulam Thiruvalla Road Mavelikkara Alappuzha,\u00a0690105",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.541957,
+          9.43752
+        ]
+      },
+      "properties": {
+        "id": "L1DC0076",
+        "name": "Alappuzha - Changanassery Hwy",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Alappuzha - Changanassery Hwy, Perunna, Changanassery, Kerala 686102",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.514735,
+          9.529075
+        ]
+      },
+      "properties": {
+        "id": "L1DC0092",
+        "name": "Chirayil Ultra Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Chirayil Ultra Charging Station, MC Road, Pallom, Kottayam, 686007, Kerala, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.711836,
+          9.892843
+        ]
+      },
+      "properties": {
+        "id": "L1DC0075",
+        "name": "VPV6+6P2 Matha Shopping Arcade",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "VPV6+6P2 Matha Shopping Arcade, Pala Road, Thodupuzha, Kerala 685584, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.806848,
+          9.699917
+        ]
+      },
+      "properties": {
+        "id": "L1DC0270",
+        "name": "Thayil 2",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Thayil 2,3 & 4 wheeler DC Fast Charging Sation Teekoy 686580",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.663799,
+          9.705243
+        ]
+      },
+      "properties": {
+        "id": "L1DC0011",
+        "name": "Arunapuram",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Arunapuram",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.588409,
+          9.991904
+        ]
+      },
+      "properties": {
+        "id": "L1DC0022",
+        "name": "Chalikadavu Bridge",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Chalikadavu Bridge",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0351",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.302118,
+          9.997317
+        ]
+      },
+      "properties": {
+        "id": "L1DC0351",
+        "name": "SJRRA-158",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "SJRRA-158, Kaloor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.302032,
+          9.997561
+        ]
+      },
+      "properties": {
+        "id": "L1DC0077",
+        "name": "Bolt.Earth Station (682017) - L1DC0077",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "682017,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0269",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.302101,
+          9.997381
+        ]
+      },
+      "properties": {
+        "id": "L1DC0269",
+        "name": "MDS FELLOWSHIP",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "MDS FELLOWSHIP, JLN Stadium round Ernakulam 682025",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.316163,
+          9.987289
+        ]
+      },
+      "properties": {
+        "id": "L1DC0021",
+        "name": "Chalikkavattom",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Chalikkavattom, Vennala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.315996,
+          9.987355
+        ]
+      },
+      "properties": {
+        "id": "L1DC0132",
+        "name": "simple Energy kochi",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "simple Energy kochi , vennala , kochi pin 682032",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.318138,
+          9.960512
+        ]
+      },
+      "properties": {
+        "id": "L1DC0183",
+        "name": "Service Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Service Road, Thykoodam, Vyttila",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.348132,
+          9.527352
+        ]
+      },
+      "properties": {
+        "id": "L1DC0115",
+        "name": "Bolt.Earth Station (688006) - L1DC0115",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "688006,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.328226,
+          9.559344
+        ]
+      },
+      "properties": {
+        "id": "L1DC0046",
+        "name": "Bernad Junction Near Kalavoor",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Bernad Junction Near Kalavoor, Pathirappally P.O. Alappuzha District \u2013 688521 Kerala, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.870075,
+          10.983371
+        ]
+      },
+      "properties": {
+        "id": "L1DC0120",
+        "name": "Prabha EV Charging Station Elarankadappuram",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Prabha EV Charging Station Elarankadappuram, Near govt hospital, Tanur, Malappuram, Kerala, 676302",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.928256,
+          10.921282
+        ]
+      },
+      "properties": {
+        "id": "L1DC0437",
+        "name": "IDBI BANK",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "IDBI BANK , PANBAZAR, MALAPPURAM ROAD,TIRUR MALAPPURAM,676101",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.947262,
+          10.72917
+        ]
+      },
+      "properties": {
+        "id": "L1DC0032",
+        "name": "Popular Textiles",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Popular Textiles, Veliancode Town, Veliancode, Kerala 679579",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.341033,
+          10.122071
+        ]
+      },
+      "properties": {
+        "id": "L1DC0262",
+        "name": "48CR+JGW",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "48CR+JGW, NH544, Thottakkattukara, Aluva, Kerala 683102, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.341278,
+          10.121656
+        ]
+      },
+      "properties": {
+        "id": "L1DC0096",
+        "name": "National Highway 544",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "National Highway 544, Thottakkattukara",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0204",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.355025,
+          10.166014
+        ]
+      },
+      "properties": {
+        "id": "L1DC0204",
+        "name": "Wisdom EV Charging Station Mekkad",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Wisdom EV Charging Station Mekkad, Athani, Angamaly Ernakulam, 683589 Kerala India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.354974,
+          10.165975
+        ]
+      },
+      "properties": {
+        "id": "L1DC0127",
+        "name": "Athani Mekkad Elavoor Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Athani Mekkad Elavoor Road, Mekkad 683589",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.368086,
+          10.087546
+        ]
+      },
+      "properties": {
+        "id": "L1DC0108",
+        "name": "State Highway 16",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "State Highway 16, Edathala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.367719,
+          10.976692
+        ]
+      },
+      "properties": {
+        "id": "L1DC0009",
+        "name": "Melekodakkad",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Melekodakkad, Palakkad- Kozhikode Road, Palakkad Pincode: 678521",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.395342,
+          10.898122
+        ]
+      },
+      "properties": {
+        "id": "L1DC0081",
+        "name": "Lakshmi_KRS Fast EV Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Lakshmi_KRS Fast EV Charging Station, Near Boothathankotta Ayyappa Temple, Mannarkkad Road, Thiruvazhiyode,",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.353937,
+          10.021383
+        ]
+      },
+      "properties": {
+        "id": "L1DC0176",
+        "name": "Bolt.Earth Station (682030) - L1DC0176",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "682030,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0542",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.353909,
+          10.021386
+        ]
+      },
+      "properties": {
+        "id": "L1DC0542",
+        "name": "Bolt.Earth Station (682030) - L1DC0542",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "682030,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.396379,
+          10.770549
+        ]
+      },
+      "properties": {
+        "id": "L1DC0038",
+        "name": "19th Mile",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "19th Mile, SRK Nagar",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.363174,
+          10.017404
+        ]
+      },
+      "properties": {
+        "id": "L1DC0066",
+        "name": "Olive Courtyard Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Olive Courtyard Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.42867,
+          10.710349
+        ]
+      },
+      "properties": {
+        "id": "L1DC0156",
+        "name": "Punarjani gardens",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Punarjani gardens, Thiruvalamala,\u00a0Kerala 680588",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.428678,
+          10.710348
+        ]
+      },
+      "properties": {
+        "id": "L1DC0149",
+        "name": "Punarjani gardens",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Punarjani gardens, Thiruvalamala,\u00a0Kerala 680588",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.428607,
+          10.710345
+        ]
+      },
+      "properties": {
+        "id": "L1DC0154",
+        "name": "Punarjani gardens",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Punarjani gardens, Thiruvalamala,\u00a0Kerala 680588",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0493",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.428375,
+          10.171476
+        ]
+      },
+      "properties": {
+        "id": "L1DC0493",
+        "name": "State Highway 1",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "State Highway 1, Mattoor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.415321,
+          10.028413
+        ]
+      },
+      "properties": {
+        "id": "L1DC0151",
+        "name": "Pallikkara",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Pallikkara",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0458",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.397512,
+          10.185247
+        ]
+      },
+      "properties": {
+        "id": "L1DC0458",
+        "name": "Angamali - Cochin Airport Rd",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Angamali - Cochin Airport Rd, AJ Nagar, Angamaly, Nedumbassery, Kerala 683572",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0497",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.397435,
+          10.18526
+        ]
+      },
+      "properties": {
+        "id": "L1DC0497",
+        "name": "Bolt.Earth Station (683572) - L1DC0497",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "683572,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0569",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.393114,
+          10.196229
+        ]
+      },
+      "properties": {
+        "id": "L1DC0569",
+        "name": "EV2 Wheels",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "EV2 Wheels, Shamrock plaza, Near SNDP junction, Angamaly manjapra road, 683572",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.618711,
+          10.066866
+        ]
+      },
+      "properties": {
+        "id": "L1DC0099",
+        "name": "Government Hospital",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Government Hospital, Thankalam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0467",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.436162,
+          10.583999
+        ]
+      },
+      "properties": {
+        "id": "L1DC0467",
+        "name": "Amigo",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Amigo, Restaurant, Panthalampadam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0483",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.583511,
+          10.593588
+        ]
+      },
+      "properties": {
+        "id": "L1DC0483",
+        "name": "Near",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Near, Avitis Hospital Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.72995,
+          10.695146
+        ]
+      },
+      "properties": {
+        "id": "L1DC0125",
+        "name": "Smart wheels Ambattupalayam",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Smart wheels Ambattupalayam,chittur thathamangalam palakkad kerala 678104",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.729977,
+          10.695162
+        ]
+      },
+      "properties": {
+        "id": "L1DC0136",
+        "name": "Smart wheels Ambattupalayam",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Smart wheels Ambattupalayam,chittur thathamangalam palakkad kerala 678104",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9486,
+          10.01468
+        ]
+      },
+      "properties": {
+        "id": "L1DC0051",
+        "name": "Eltech wheel Alignment",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Eltech wheel Alignment, NH 49 Camco jn Adimaly",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.15339,
+          10.416626
+        ]
+      },
+      "properties": {
+        "id": "L1DC0026",
+        "name": "Peak Power",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Peak Power, Thripayyar, kerala-680564",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.21324,
+          10.541869
+        ]
+      },
+      "properties": {
+        "id": "L1DC0071",
+        "name": "Therattil House",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Therattil House, Opp. Rose gardens, Thiruvambadi P.O, Thrissur 680022, Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.202115,
+          10.531498
+        ]
+      },
+      "properties": {
+        "id": "L1DC0141",
+        "name": "Cheloor Citadel",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Cheloor Citadel, Punkunnam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.221228,
+          10.511572
+        ]
+      },
+      "properties": {
+        "id": "L1DC0017",
+        "name": ":Anchorage Plaza Mundupalam Avenue Road  Thrissur\u00a0 680006",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": ":Anchorage Plaza Mundupalam Avenue Road  Thrissur\u00a0 680006",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.189845,
+          10.887585
+        ]
+      },
+      "properties": {
+        "id": "L1DC0020",
+        "name": "AIMA EV charging station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "AIMA EV charging station, karinganad, Chanthappadi, 679309",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.189833,
+          10.887544
+        ]
+      },
+      "properties": {
+        "id": "L1DC0319",
+        "name": "Karinganad",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Karinganad, Chanthappadi",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.225297,
+          10.943501
+        ]
+      },
+      "properties": {
+        "id": "L1DC0001",
+        "name": "Bolt.Earth Station (679322) - L1DC0001",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "679322,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0435",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.183461,
+          10.99118
+        ]
+      },
+      "properties": {
+        "id": "L1DC0435",
+        "name": "Valambur Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Valambur Road, Tirurkad",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0438",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.217284,
+          10.975651
+        ]
+      },
+      "properties": {
+        "id": "L1DC0438",
+        "name": "X6G8+8XR",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "X6G8+8XR, Calicut Rd, Perinthalmanna, Kerala 679322, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0599",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.162609,
+          10.950084
+        ]
+      },
+      "properties": {
+        "id": "L1DC0599",
+        "name": "SAM CHARGING STATION",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "SAM CHARGING STATION, MALAPARAMBU, PALACHODU",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.095696,
+          10.996038
+        ]
+      },
+      "properties": {
+        "id": "L1DC0004",
+        "name": "Vk food cafe School padi Cherukulamba",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Vk food cafe School padi Cherukulamba, Chattiparamba",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.07771,
+          10.719782
+        ]
+      },
+      "properties": {
+        "id": "L1DC0052",
+        "name": "Baboos Triangle Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Baboos Triangle Charging Station, Kallumpuram, Thrissur,Kerala, 680543",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.006563,
+          10.784095
+        ]
+      },
+      "properties": {
+        "id": "L1DC0065",
+        "name": "E-Fusion Charging Station Global Point Palakkad - Ponnani Rd",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "E-Fusion Charging Station Global Point Palakkad - Ponnani Rd, Edappal, Kerala, pincode: 679576",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.070218,
+          10.786822
+        ]
+      },
+      "properties": {
+        "id": "L1DC0133",
+        "name": "Bolt.Earth Station (679552) - L1DC0133",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "679552,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.225656,
+          10.974951
+        ]
+      },
+      "properties": {
+        "id": "L1DC0119",
+        "name": "Shornur - Perinthalmanna Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Shornur - Perinthalmanna Road, Shanti Nagar",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0198",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.311286,
+          10.87851
+        ]
+      },
+      "properties": {
+        "id": "L1DC0198",
+        "name": "cherpussery",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "cherpussery,mocca parking,near samia textiles pincode: 679503",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0189",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.238184,
+          10.488444
+        ]
+      },
+      "properties": {
+        "id": "L1DC0189",
+        "name": "Christopher Nagar",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Christopher Nagar, ollur P O, Thrissur Infront of Hitachi ATM",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.254093,
+          10.493673
+        ]
+      },
+      "properties": {
+        "id": "L1DC0047",
+        "name": "Bolt.Earth Station (680014) - L1DC0047",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "680014,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.254006,
+          10.49366
+        ]
+      },
+      "properties": {
+        "id": "L1DC0311",
+        "name": "Gupta House Kuttanellur Thrissur thrissur 680014",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Gupta House Kuttanellur Thrissur thrissur 680014",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0188",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.240187,
+          10.504793
+        ]
+      },
+      "properties": {
+        "id": "L1DC0188",
+        "name": "Plug&PayAnchery Near Anchery School",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Plug&PayAnchery Near Anchery School ,Opposit Anchery moospet Co operative Bank 680006",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.239362,
+          10.511661
+        ]
+      },
+      "properties": {
+        "id": "L1DC0163",
+        "name": "Thrissur Mannamangalam Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Thrissur Mannamangalam Road, Nellikunnu",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.239315,
+          10.511648
+        ]
+      },
+      "properties": {
+        "id": "L1DC0062",
+        "name": "Tessar Venture Ward No. 22",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Tessar Venture Ward No. 22, Door No. 351/1 Chelakkotukara Valarkavu Junction Thrissur Pin: 680006",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.310996,
+          10.028651
+        ]
+      },
+      "properties": {
+        "id": "L1DC0056",
+        "name": "Unnichira",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Unnichira, Koonamthai, Edappally",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.246001,
+          10.523981
+        ]
+      },
+      "properties": {
+        "id": "L1DC0109",
+        "name": "Kaalathodu Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kaalathodu Road,Kalathode,Thrissur,Pincode: 680005",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0440",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.253838,
+          10.539658
+        ]
+      },
+      "properties": {
+        "id": "L1DC0440",
+        "name": "Kuttumuck - Nettissery Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kuttumuck - Nettissery Road, Unity Nagar, Nettissery",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.255704,
+          10.528871
+        ]
+      },
+      "properties": {
+        "id": "L1DC0472",
+        "name": "Thrissur - Palghat Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Thrissur - Palghat Road, Sreyas Nagar, Ollukkara",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.233144,
+          10.165448
+        ]
+      },
+      "properties": {
+        "id": "L1DC0089",
+        "name": "Charge n chill Paliyam road Karimpadam Chendamangalam Pin 683513",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Charge n chill Paliyam road Karimpadam Chendamangalam Pin 683513",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.236745,
+          10.644274
+        ]
+      },
+      "properties": {
+        "id": "L1DC0093",
+        "name": "Kodungallur - Shornur Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kodungallur - Shornur Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.23716,
+          10.644457
+        ]
+      },
+      "properties": {
+        "id": "L1DC0005",
+        "name": "SR power hub",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "SR power hub, pathamkallu wadakkanchery Thrissur Kerala\u00a0680582",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.323294,
+          10.556696
+        ]
+      },
+      "properties": {
+        "id": "L1DC0050",
+        "name": "H84F+P4M",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "H84F+P4M, NH 544, Pattikkad, Pananchery, Kerala 680652, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0786",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.325659,
+          10.033987
+        ]
+      },
+      "properties": {
+        "id": "L1DC0786",
+        "name": "MNRA/11",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "MNRA/11, Pipeline Rd, Maveli Nagar, Vidya Nagar Colony, Thrikkakara, Edappally, Kochi, Kerala 682022, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0721",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.337535,
+          10.012831
+        ]
+      },
+      "properties": {
+        "id": "L1DC0721",
+        "name": "Bolt.Earth Station (682030) - L1DC0721",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "682030,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0560",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.336805,
+          10.312246
+        ]
+      },
+      "properties": {
+        "id": "L1DC0560",
+        "name": "Tramway",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Tramway, Line, Attathode Junction, Chalakudy, Kerala 680307",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0571",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.831183,
+          11.268369
+        ]
+      },
+      "properties": {
+        "id": "L1DC0571",
+        "name": "88/3",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "88/3, Ummalathoor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.831171,
+          11.268393
+        ]
+      },
+      "properties": {
+        "id": "L1DC0181",
+        "name": "Ummalathoor",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Ummalathoor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.831184,
+          11.268201
+        ]
+      },
+      "properties": {
+        "id": "L1DC0180",
+        "name": "SK VOLT HUB",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "SK VOLT HUB, KOVOOR , Chevayur (Po), Calicut -673017",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.831194,
+          11.268343
+        ]
+      },
+      "properties": {
+        "id": "L1DC0185",
+        "name": "K.T.para masjid",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "K.T.para masjid",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0431",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.83826,
+          11.327631
+        ]
+      },
+      "properties": {
+        "id": "L1DC0431",
+        "name": "VK BUILDING",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "VK BUILDING, PULLAATTUTHAZHAM, KURUVATTOOR, CALICUT - 673611",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0549",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8466,
+          11.286121
+        ]
+      },
+      "properties": {
+        "id": "L1DC0549",
+        "name": "18/335",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "18/335, CWRDM Road, Palakottuvayal",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0587",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.846656,
+          11.286121
+        ]
+      },
+      "properties": {
+        "id": "L1DC0587",
+        "name": "18/335",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "18/335, CWRDM Road, Palakottuvayal",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0429",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.885478,
+          11.180582
+        ]
+      },
+      "properties": {
+        "id": "L1DC0429",
+        "name": "DAY TO DAY ENERGY",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "DAY TO DAY ENERGY, NEAR NAYARA PETROLL AIRPORT ROAD, VAIDYARANGADI, CALICUT",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0187",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.882639,
+          11.311639
+        ]
+      },
+      "properties": {
+        "id": "L1DC0187",
+        "name": "Yadav EV Charging Station Wayanad Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Yadav EV Charging Station Wayanad Road, Kunnamangalam, Kozhikode 673571 Kerala India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0436",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.867273,
+          11.375445
+        ]
+      },
+      "properties": {
+        "id": "L1DC0436",
+        "name": "RJ EV HUB NARIKKUNI-POONOOR ROAD",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "RJ EV HUB NARIKKUNI-POONOOR ROAD, NELLIERYTHAZHAM. CALICUT PIN 673585 - CALICUT",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.890137,
+          11.113028
+        ]
+      },
+      "properties": {
+        "id": "L1DC0153",
+        "name": "MAS STATIONARY & PLASTICS",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "MAS STATIONARY & PLASTICS,TOYS MELE CHELARI, Mathappuzha road, near Refresh\u00a0bakery,\u00a0673636",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0205",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.97489,
+          11.14177
+        ]
+      },
+      "properties": {
+        "id": "L1DC0205",
+        "name": "4XRF+RW9",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "4XRF+RW9, Gulf Batteries, SH28, Kondotty, Malappuram District, Kerala \u2013 673638, India",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.956503,
+          11.152637
+        ]
+      },
+      "properties": {
+        "id": "L1DC0008",
+        "name": "JANASEVANAKENDRAM",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "JANASEVANAKENDRAM,NEAR MUNICIPALITY OFFICE,OPP:MOINKITTY VAIDYAR MEMMORIAL BUILDING,KONDOTTY, 673638",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.964012,
+          11.16476
+        ]
+      },
+      "properties": {
+        "id": "L1DC0012",
+        "name": "Vattaparamp",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Vattaparamp",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.956222,
+          11.107266
+        ]
+      },
+      "properties": {
+        "id": "L1DC0072",
+        "name": "Karuvankallu",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Karuvankallu",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.937013,
+          11.061022
+        ]
+      },
+      "properties": {
+        "id": "L1DC0043",
+        "name": "3W6P+CRM",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "3W6P+CRM, Kolappuram, Kerala 676305",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9626,
+          11.084802
+        ]
+      },
+      "properties": {
+        "id": "L1DC0068",
+        "name": "TP Manzil",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "TP Manzil, Kannamangalam po, Vengara, Malappuram Pincode: 676304",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.966505,
+          11.190841
+        ]
+      },
+      "properties": {
+        "id": "L1DC0150",
+        "name": "Mundakkulam junction",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Mundakkulam junction, Malappuram, 673638",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0543",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9639,
+          11.244626
+        ]
+      },
+      "properties": {
+        "id": "L1DC0543",
+        "name": "TRIP BY DAYTODAY VALILLAAPUZHA",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "TRIP BY DAYTODAY VALILLAAPUZHA, VAZHAKKAD-EDAVANNAPPARA ROAD, CHERUVAYUR P O PIN :673645",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0573",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.954243,
+          11.305228
+        ]
+      },
+      "properties": {
+        "id": "L1DC0573",
+        "name": "Kallanthode - Nayarkuzhi Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kallanthode - Nayarkuzhi Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.944082,
+          11.318347
+        ]
+      },
+      "properties": {
+        "id": "L1DC0192",
+        "name": "KATTANGAL",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "KATTANGAL,OPPOSIT BHARATH PETRILIUM,NIT,CALICUT",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.933973,
+          11.165109
+        ]
+      },
+      "properties": {
+        "id": "L1DC0007",
+        "name": "Kottapuram PO Pullickal Pincode:673637",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kottapuram PO Pullickal Pincode:673637",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0203",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.933978,
+          11.381349
+        ]
+      },
+      "properties": {
+        "id": "L1DC0203",
+        "name": "KALARANTHIRI",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 6.6,
+        "status": "AVAILABLE",
+        "address": "KALARANTHIRI,MANIPURAM-THAMARASSERI ROAD,CALICUT PIN 673572",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.958923,
+          11.372113
+        ]
+      },
+      "properties": {
+        "id": "L1DC0102",
+        "name": "K-VOLT EV Charging Station  Palaparambhath  Omassery po Omassery 673582\u00a0kozhikkode",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "K-VOLT EV Charging Station  Palaparambhath  Omassery po Omassery 673582\u00a0kozhikkode",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.975547,
+          11.48095
+        ]
+      },
+      "properties": {
+        "id": "L1DC0121",
+        "name": "EQ EV Prabha EV Charging Station Wayanad Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "EQ EV Prabha EV Charging Station Wayanad Road, Puthuppady Kozhikode, 673586",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.975536,
+          11.480961
+        ]
+      },
+      "properties": {
+        "id": "L1DC0041",
+        "name": "EQ EV Prabha EV Charging Station Wayanad Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "EQ EV Prabha EV Charging Station Wayanad Road, Puthuppady Kozhikode, 673586",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.988882,
+          11.326088
+        ]
+      },
+      "properties": {
+        "id": "L1DC0117",
+        "name": "Royal Enfield showroom (Backside)",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Royal Enfield showroom (Backside), Axis bank Agasthiamuzhi, Mukkam High school road ,673602",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.995735,
+          11.320269
+        ]
+      },
+      "properties": {
+        "id": "L1DC0143",
+        "name": "state",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "state, Mukkam - Maranchatty Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.628354,
+          11.519344
+        ]
+      },
+      "properties": {
+        "id": "L1DC0118",
+        "name": "Payyoli - Cherandathur Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "727, Payyoli - Cherandathur Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.757733,
+          11.582273
+        ]
+      },
+      "properties": {
+        "id": "L1DC0100",
+        "name": "Bolt.Earth Station (673525) - L1DC0100",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "673525,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.77275,
+          11.446666
+        ]
+      },
+      "properties": {
+        "id": "L1DC0104",
+        "name": "Eastmukku Ulliyeri Kozhikode 673323",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Eastmukku Ulliyeri Kozhikode 673323",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.741589,
+          11.357055
+        ]
+      },
+      "properties": {
+        "id": "L1DC0049",
+        "name": "Vengalam",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Vengalam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.779435,
+          11.309571
+        ]
+      },
+      "properties": {
+        "id": "L1DC0048",
+        "name": "Kunduparampa",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kunduparampa",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.779473,
+          11.309456
+        ]
+      },
+      "properties": {
+        "id": "L1DC0094",
+        "name": "Kunduparamba Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kunduparamba Road, Kozhikode",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.771049,
+          11.285395
+        ]
+      },
+      "properties": {
+        "id": "L1DC0042",
+        "name": "Krishna Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Krishna Charging Station, Westhill , Kozhikode, Pincode: 673005",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.821953,
+          11.280614
+        ]
+      },
+      "properties": {
+        "id": "L1DC0016",
+        "name": "Iringadampalli Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Iringadampalli Road, Vrindavan Colony",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0427",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.82196,
+          11.280616
+        ]
+      },
+      "properties": {
+        "id": "L1DC0427",
+        "name": "Iringadampalli Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Iringadampalli Road, Vrindavan Colony",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.824525,
+          11.280842
+        ]
+      },
+      "properties": {
+        "id": "L1DC0057",
+        "name": "Kuttoth EV Charging Station Iringadanpalli Junction Kozhikode Pin 673017",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kuttoth EV Charging Station Iringadanpalli Junction Kozhikode Pin 673017",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.811613,
+          11.256365
+        ]
+      },
+      "properties": {
+        "id": "L1DC0148",
+        "name": "Palazhi",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Palazhi, Road, Pottammal, Kozhikode, Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.810547,
+          11.230935
+        ]
+      },
+      "properties": {
+        "id": "L1DC0271",
+        "name": "Thottummaram",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Thottummaram",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.817949,
+          11.231206
+        ]
+      },
+      "properties": {
+        "id": "L1DC0111",
+        "name": "Bolt.Earth Station (673007) - L1DC0111",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "673007,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.372169,
+          11.886433
+        ]
+      },
+      "properties": {
+        "id": "L1DC0097",
+        "name": "Casa Marina Complex",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Casa Marina Complex, Near, AKG Hospital, Talap",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0275",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.814566,
+          11.211878
+        ]
+      },
+      "properties": {
+        "id": "L1DC0275",
+        "name": "Jayanthi Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Jayanthi Road, Nallalam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0541",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.779354,
+          11.238555
+        ]
+      },
+      "properties": {
+        "id": "L1DC0541",
+        "name": "MK ROAD THEKKEPURAM IDIYANGARA CALICUT 673003",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "MK ROAD THEKKEPURAM IDIYANGARA CALICUT 673003",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0550",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.780244,
+          11.246618
+        ]
+      },
+      "properties": {
+        "id": "L1DC0550",
+        "name": "Railwaystation 4th Platform Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Railwaystation 4th Platform Road, Kuttichira",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0267",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.775427,
+          11.259223
+        ]
+      },
+      "properties": {
+        "id": "L1DC0267",
+        "name": "Homeland Builders",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Homeland Builders, PT Usha Road, Vellayil, Kozhikode 673032",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.777984,
+          11.254704
+        ]
+      },
+      "properties": {
+        "id": "L1DC0040",
+        "name": "Bike spot Ev service",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Bike spot Ev service, Aravind crossroad (AG road) old land",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.775394,
+          11.252883
+        ]
+      },
+      "properties": {
+        "id": "L1DC0179",
+        "name": "Bolt.Earth Station (673032) - L1DC0179",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "673032,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0584",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.775252,
+          11.253202
+        ]
+      },
+      "properties": {
+        "id": "L1DC0584",
+        "name": "Mananchira",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Mananchira",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0585",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.784435,
+          11.264203
+        ]
+      },
+      "properties": {
+        "id": "L1DC0585",
+        "name": "Kuniyil Kav Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kuniyil Kav Road",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.804353,
+          11.191618
+        ]
+      },
+      "properties": {
+        "id": "L1DC0281",
+        "name": "Naduvattum",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Naduvattum",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.831119,
+          11.268359
+        ]
+      },
+      "properties": {
+        "id": "L1DC0177",
+        "name": "Ummalathoor",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Ummalathoor",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.107115,
+          11.700044
+        ]
+      },
+      "properties": {
+        "id": "L1DC0088",
+        "name": "Bolt.Earth Station (673591) - L1DC0088",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "673591,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0534",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.110098,
+          11.641312
+        ]
+      },
+      "properties": {
+        "id": "L1DC0534",
+        "name": "National Highway 766",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "National Highway 766",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.234619,
+          11.18497
+        ]
+      },
+      "properties": {
+        "id": "L1DC0103",
+        "name": "KLR EV Charging Station chettyarammal Wandoor Malappuram Kerala 679328",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "KLR EV Charging Station chettyarammal Wandoor Malappuram Kerala 679328",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.230246,
+          11.106484
+        ]
+      },
+      "properties": {
+        "id": "L1DC0280",
+        "name": "PAYYANADAN EV BY DAYTODAY",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "PAYYANADAN EV BY DAYTODAY,OOTY ROAD,HIGHSCOOL PADI,NEAR,BHARAT PETROLIUM",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.133004,
+          11.175643
+        ]
+      },
+      "properties": {
+        "id": "L1DC0200",
+        "name": "Nilambur Malappuram Road Ernad Malappuram",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Nilambur Malappuram Road Ernad Malappuram,\u00a0676123 Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0718",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.224403,
+          11.213095
+        ]
+      },
+      "properties": {
+        "id": "L1DC0718",
+        "name": "69/2100",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "69/2100, Pallimukku",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0579",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.256935,
+          11.227397
+        ]
+      },
+      "properties": {
+        "id": "L1DC0579",
+        "name": "SHEEBA'S EV HUB BY DAYTODAY PALAMADAM",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "SHEEBA'S EV HUB BY DAYTODAY PALAMADAM, KARAD, P. O VANDOOR, MALAPURAM DIS Palamadam, Karad Post, Wandoor, Kerala 679339",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.183138,
+          11.24475
+        ]
+      },
+      "properties": {
+        "id": "L1DC0031",
+        "name": "Evas hotal and coolbar  college road mampad Pincode:676542",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Evas hotal and coolbar  college road mampad Pincode:676542",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.054237,
+          11.23117
+        ]
+      },
+      "properties": {
+        "id": "L1DC0033",
+        "name": "Evas hotal and coolbar  areacode puthalam",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Evas hotal and coolbar  areacode puthalam",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.072708,
+          11.043823
+        ]
+      },
+      "properties": {
+        "id": "L1DC0140",
+        "name": "Down Hill Malappuram",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Down Hill Malappuram,\u00a0676505 Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0517",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.007127,
+          11.431616
+        ]
+      },
+      "properties": {
+        "id": "L1DC0517",
+        "name": "THUSHARAGIRI ROAD KODANCHERI CALICUT 673580",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "THUSHARAGIRI ROAD KODANCHERI CALICUT 673580",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.037647,
+          11.556565
+        ]
+      },
+      "properties": {
+        "id": "L1DC0194",
+        "name": "Erode Bakes",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Erode Bakes, NH 47, near sri plus mahal, Erode Bakes, NH 47, near sri plus mahal, Perundurai, Tamil Nadu 638056, Tamil Nadu 638056",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0599,
+          11.574713
+        ]
+      },
+      "properties": {
+        "id": "L1DC0160",
+        "name": "Mylanchi Fancy Near St. Jude Church Ooty Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Mylanchi Fancy Near St. Jude Church Ooty Road, Chundale Wayanad \u2013 673123",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.209056,
+          12.104772
+        ]
+      },
+      "properties": {
+        "id": "L1DC0106",
+        "name": "AL AMEEMI BY DAY TO DAY",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "AL AMEEMI BY DAY TO DAY, THEKKE BAZAR, STADIUM ROAD, PAYYANNUR",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.107506,
+          12.339191
+        ]
+      },
+      "properties": {
+        "id": "L1DC0010",
+        "name": "Paramount EV Charging Station",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Paramount EV Charging Station, Panathur Road, Mavungal, Kasaragod,\u00a0pin:\u00a0671531",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.035205,
+          12.510384
+        ]
+      },
+      "properties": {
+        "id": "L1DC0175",
+        "name": "EK Nayanar Co Operative Hospital",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "EK Nayanar Co Operative Hospital, 4th Mile, Chengala, Kasaragod Pincode: 671123",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.204041,
+          12.40211
+        ]
+      },
+      "properties": {
+        "id": "L1DC0122",
+        "name": "Bolt.Earth Station (671531) - L1DC0122",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "671531,Kerala",
+        "state": "Kerala"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.135831,
+          8.30815
+        ]
+      },
+      "properties": {
+        "id": "L1DC0317",
+        "name": "Choozhal Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Choozhal Road",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.230132,
+          10.999387
+        ]
+      },
+      "properties": {
+        "id": "L1DC0531",
+        "name": "3F 198/3G",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "3F 198/3G, K",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.418645,
+          10.183451
+        ]
+      },
+      "properties": {
+        "id": "L1DC0152",
+        "name": "Singampunari",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Singampunari, Near Mahadev Nursing Home",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.958799,
+          11.009721
+        ]
+      },
+      "properties": {
+        "id": "L1DC0422",
+        "name": "Bolt.Earth Station (641001) - L1DC0422",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "641001,Tamil Nadu",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0401",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.900394,
+          11.045585
+        ]
+      },
+      "properties": {
+        "id": "L1DC0401",
+        "name": "SF No 237/1B2",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast",
+        "power_kw": 10.0,
+        "status": "AVAILABLE",
+        "address": "SF No 237/1B2",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.943805,
+          11.106189
+        ]
+      },
+      "properties": {
+        "id": "L1DC0357",
+        "name": "Roots EV - Battery Operated Electric Vehicles Manufacturer",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast",
+        "power_kw": 6.6,
+        "status": "AVAILABLE",
+        "address": "Roots EV - Battery Operated Electric Vehicles Manufacturer, Electric Golf Cart Company, Club Car & Buggy Carts for Sale India 641031",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.134189,
+          11.112224
+        ]
+      },
+      "properties": {
+        "id": "L1DC0342",
+        "name": "6/13",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "6/13",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.696444,
+          11.328493
+        ]
+      },
+      "properties": {
+        "id": "L1DC0327",
+        "name": "A2A car wash",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "A2A car wash, 14/1, Perundurai Road, Playapalyam, Piruvu, near one fine day Hotel EB Officer's Colony, Erode  638011",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.724336,
+          11.330601
+        ]
+      },
+      "properties": {
+        "id": "L1DC0466",
+        "name": "Kongu Nagar",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "72, Kongu Nagar, Kalliaynkadu",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0716",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.326832,
+          11.053702
+        ]
+      },
+      "properties": {
+        "id": "L1DC0716",
+        "name": "Tiruppur Road",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Tiruppur Road, Chinnakarai",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.173473,
+          11.215266
+        ]
+      },
+      "properties": {
+        "id": "L1DC0237",
+        "name": "Bolt.Earth Station (637001) - L1DC0237",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "637001,Tamil Nadu",
+        "state": "Tamil Nadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1DC0086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.813916,
+          12.002165
+        ]
+      },
+      "properties": {
+        "id": "L1DC0086",
+        "name": "Kalpana Street Name: Vikasha Radial",
+        "operator": "Bolt.Earth",
+        "connector_type": "Type-6 DC Fast / Type-7 AC Dual",
+        "power_kw": 3.3,
+        "status": "AVAILABLE",
+        "address": "Kalpana Street Name: Vikasha Radial, Crown Road area,Auroville 605101 (Pondicherry), Tamil Nadu, India Landmark: Humanscapes 605101",
+        "state": "Tamil Nadu"
+      }
+    }
+  ]
+}

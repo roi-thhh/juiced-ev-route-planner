@@ -1,0 +1,67 @@
+# ==============================================================================
+# JUICED Repository .gitignore
+# ==============================================================================
+
+# Secrets & Private Environment Configurations
+.env
+.env.local
+.env.*.local
+*.secret
+*.pem
+*.key
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Android & Gradle Build Artifacts
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+android/local.properties
+android/**/local.properties
+android/*.iml
+android/**/*.iml
+android/.idea/
+
+# Android Studio & JetBrains IDE
+.idea/
+*.iws
+*.ipr
+out/
+
+# VS Code & Editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Temporary Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Runtime Dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

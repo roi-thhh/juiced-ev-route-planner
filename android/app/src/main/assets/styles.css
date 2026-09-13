@@ -1,0 +1,1707 @@
+/* ==========================================================================
+   JUICED SEMI-BRUTALIST & FUNKY DESIGN SYSTEM
+   World-Class Modern Graphic UI/UX:
+   - Chunky Tactile Cards with Hard Offset Shadows
+   - Expressive Syne & Space Grotesk Display Typography
+   - Space Mono Technical Readouts
+   - High-Voltage Neon Pop Palette: Volt Yellow, Cyber Mint, Hot Pink, Klein Blue
+   - Fluid Spring Physics & Micro-Interactions
+   ========================================================================== */
+
+:root {
+  /* Funky Typography Stack */
+  --font-display: 'Syne', 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline: 'Space Grotesk', -apple-system, sans-serif;
+  --font-mono: 'Space Mono', 'JetBrains Mono', monospace;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* High-Voltage Funky Color Palette */
+  --volt-yellow: #FFE600;
+  --volt-mint: #00FF9D;
+  --volt-pink: #FF3366;
+  --volt-blue: #2E5BFF;
+  --volt-purple: #9D00FF;
+  --volt-orange: #FF7A00;
+  --volt-cyan: #00F0FF;
+
+  /* Neutrals & Surfaces */
+  --volt-black: #0C0D10;
+  --volt-dark: #121318;
+  --volt-card: #191B22;
+  --volt-card-subtle: #21242E;
+  --volt-paper: #FFFDF5;
+  --volt-cream: #F5F2EB;
+  --volt-border: #000000;
+  --volt-border-light: rgba(255, 255, 255, 0.16);
+
+  --text-pure: #FFFFFF;
+  --text-secondary: #B4B8C7;
+  --text-muted: #74788A;
+
+  /* Brutalist Shadows & Spring Transitions */
+  --brutal-border: 2.5px solid #000000;
+  --brutal-border-thick: 3px solid #000000;
+  --brutal-shadow-sm: 2px 2px 0px #000000;
+  --brutal-shadow: 4px 4px 0px #000000;
+  --brutal-shadow-lg: 6px 6px 0px #000000;
+  --brutal-shadow-xl: 8px 8px 0px #000000;
+
+  --spring-fast: all 0.16s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --spring-med: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  --spring-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Radii for Semi-Brutalist Harmony */
+  --radius-card: 20px;
+  --radius-button: 14px;
+  --radius-pill: 9999px;
+  --radius-inner: 12px;
+}
+
+/* ==========================================================================
+   Base Reset & Mobile Shell Canvas
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background: var(--volt-dark);
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--volt-dark);
+  /* Funky Halftone / Dotted Background Mesh */
+  background-image: 
+    radial-gradient(rgba(255, 230, 0, 0.12) 1.5px, transparent 1.5px),
+    radial-gradient(at 0% 0%, #220038 0px, transparent 50%),
+    radial-gradient(at 100% 100%, #002b1b 0px, transparent 50%);
+  background-size: 24px 24px, 100% 100%, 100% 100%;
+  color: var(--text-pure);
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full-Bleed App Shell for Phones */
+.mobile-app-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  background: var(--volt-dark);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) and (hover: hover) {
+  .mobile-app-shell {
+    max-width: 480px;
+    height: 94vh;
+    border-radius: 36px;
+    border: var(--brutal-border-thick);
+    box-shadow: 12px 12px 0px #000000, 0 35px 80px rgba(0, 0, 0, 0.85);
+  }
+}
+
+/* ==========================================================================
+   Semi-Brutalist Splash & Loading Screen
+   ========================================================================== */
+.brutal-splash-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: var(--volt-black);
+  background-image: 
+    radial-gradient(rgba(255, 230, 0, 0.16) 1.5px, transparent 1.5px),
+    radial-gradient(at 50% 15%, rgba(46, 91, 255, 0.2) 0px, transparent 65%),
+    radial-gradient(at 50% 85%, rgba(255, 230, 0, 0.12) 0px, transparent 65%);
+  background-size: 22px 22px, 100% 100%, 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(24px + env(safe-area-inset-top, 0px)) calc(24px + env(safe-area-inset-right, 0px)) calc(24px + env(safe-area-inset-bottom, 0px)) calc(24px + env(safe-area-inset-left, 0px));
+  box-sizing: border-box;
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.65s cubic-bezier(0.85, 0, 0.15, 1), opacity 0.5s ease;
+  user-select: none;
+}
+
+.brutal-splash-screen.splash-dismissed {
+  transform: translateY(-102%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.splash-inner-box {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.splash-logo-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.splash-logo-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 140px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(255, 230, 0, 0.35) 0%, transparent 70%);
+  filter: blur(14px);
+  pointer-events: none;
+  animation: splashAuraGlow 2.5s ease-in-out infinite alternate;
+}
+
+.splash-logo-card {
+  width: 100px;
+  height: 100px;
+  border-radius: 24px;
+  background: var(--volt-yellow);
+  border: 3.5px solid #000000;
+  box-shadow: 6px 6px 0px #000000;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  animation: splashLogoWiggle 2.4s cubic-bezier(0.34, 1.56, 0.64, 1) infinite alternate;
+}
+
+.splash-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.splash-spark-tag {
+  position: absolute;
+  bottom: -10px;
+  right: -16px;
+  z-index: 5;
+  background: var(--volt-mint);
+  color: #000000;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #000000;
+  transform: rotate(6deg);
+  white-space: nowrap;
+}
+
+.splash-brand-group {
+  margin-bottom: 28px;
+}
+
+.splash-title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: var(--volt-yellow);
+  text-shadow: 3px 3px 0px #000000;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.splash-tagline {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.splash-loader-block {
+  width: 100%;
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: var(--brutal-shadow);
+  margin-bottom: 22px;
+}
+
+.splash-progress-track {
+  width: 100%;
+  height: 18px;
+  background: var(--volt-dark);
+  border: 2.5px solid #000000;
+  border-radius: var(--radius-pill);
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: relative;
+}
+
+.splash-progress-bar {
+  width: 0%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--volt-yellow),
+    var(--volt-yellow) 12px,
+    #000000 12px,
+    #000000 20px
+  );
+  background-size: 28px 28px;
+  animation: brutalBarStripes 0.8s linear infinite;
+  border-right: 2.5px solid #000000;
+  transition: width 0.22s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.splash-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.splash-status-ticker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--volt-mint);
+  letter-spacing: 0.5px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 220px;
+}
+
+.splash-percent-text {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--volt-yellow);
+}
+
+.splash-footer-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.splash-sub-pill {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  background: var(--volt-card-subtle);
+  color: var(--text-secondary);
+  border: 1.5px solid #000000;
+  border-radius: var(--radius-pill);
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.splash-skip-btn {
+  background: transparent;
+  border: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: var(--spring-fast);
+}
+
+.splash-skip-btn:hover {
+  color: var(--volt-yellow);
+  transform: translateY(-1px);
+}
+
+@keyframes brutalBarStripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 28px 0;
+  }
+}
+
+@keyframes splashLogoWiggle {
+  0% {
+    transform: rotate(-3deg) scale(0.98);
+    box-shadow: 4px 4px 0px #000000;
+  }
+  100% {
+    transform: rotate(3deg) scale(1.04);
+    box-shadow: 8px 8px 0px #000000, 0 0 26px rgba(255, 230, 0, 0.4);
+  }
+}
+
+@keyframes splashAuraGlow {
+  0% {
+    opacity: 0.4;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* ==========================================================================
+   Full-Bleed Map Canvas
+   ========================================================================== */
+.map-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  background: #0d0e12;
+}
+
+/* ==========================================================================
+   Semi-Brutalist Top Deck (Header)
+   ========================================================================== */
+.brutal-top-bar {
+  position: absolute;
+  top: calc(14px + env(safe-area-inset-top, 0px));
+  left: calc(14px + env(safe-area-inset-left, 0px));
+  right: calc(14px + env(safe-area-inset-right, 0px));
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--brutal-shadow);
+  transition: var(--spring-fast);
+}
+
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brutal-logo-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--volt-yellow);
+  border: 2px solid #000;
+  box-shadow: var(--brutal-shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: var(--spring-fast);
+  padding: 1px;
+}
+
+.brutal-logo-badge:hover {
+  transform: rotate(8deg) scale(1.08);
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  display: block;
+}
+
+.brutal-brand-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-line-main {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.brand-text {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #fff;
+  line-height: 1;
+}
+
+.brutal-tag-pill {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  background: var(--volt-mint);
+  color: #000;
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: 1.5px solid #000;
+  line-height: 1;
+}
+
+.brutal-subtag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--volt-yellow);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 3px;
+}
+
+.pulse-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--volt-yellow);
+  box-shadow: 0 0 6px var(--volt-yellow);
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Engine Switcher Pill Button */
+.brutal-btn-pill {
+  background: #252834;
+  border: var(--brutal-border);
+  border-radius: var(--radius-pill);
+  padding: 5px 12px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: var(--brutal-shadow-sm);
+  cursor: pointer;
+  transition: var(--spring-fast);
+}
+
+.brutal-btn-pill:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 3px 3px 0px #000;
+  background: var(--volt-card-subtle);
+}
+
+.brutal-btn-pill:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+.engine-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--volt-yellow);
+  border: 1px solid #000;
+}
+
+.brutal-btn-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--volt-card-subtle);
+  border: var(--brutal-border);
+  box-shadow: var(--brutal-shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--spring-fast);
+}
+
+.brutal-btn-icon:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 3px 3px 0px #000;
+  background: var(--volt-yellow);
+}
+
+.brutal-btn-icon:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+/* ==========================================================================
+   Brutalist Map Legend Sticker
+   ========================================================================== */
+.brutal-map-legend {
+  position: absolute;
+  top: calc(74px + env(safe-area-inset-top, 0px));
+  right: calc(14px + env(safe-area-inset-right, 0px));
+  z-index: 30;
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: 14px;
+  padding: 8px 12px;
+  box-shadow: var(--brutal-shadow);
+}
+
+.legend-header {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--volt-yellow);
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.legend-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.legend-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.legend-badge.on-corridor .badge-dot { background: var(--volt-mint); }
+.legend-badge.fast-stop .badge-dot { background: var(--volt-yellow); }
+.legend-badge.detour .badge-dot { background: var(--volt-pink); }
+.legend-badge.bolt-net .badge-dot { background: #64748B; }
+
+/* ==========================================================================
+   Semi-Brutalist Bottom Sheet (Control Deck)
+   ========================================================================== */
+.bottom-sheet {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: var(--volt-dark);
+  border-top: var(--brutal-border-thick);
+  border-radius: 28px 28px 0 0;
+  box-shadow: 0 -8px 0px rgba(0, 0, 0, 0.95);
+  transition: max-height 0.35s var(--spring-smooth), transform 0.35s var(--spring-smooth);
+  display: flex;
+  flex-direction: column;
+  max-height: 52vh;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.bottom-sheet.collapsed {
+  max-height: calc(48px + env(safe-area-inset-bottom, 0px));
+  overflow: hidden;
+}
+
+.bottom-sheet.expanded {
+  max-height: calc(100% - 72px - env(safe-area-inset-top, 0px));
+}
+
+/* Grab Handle Bar */
+.sheet-handle-zone {
+  width: 100%;
+  padding: 10px 0 6px 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.brutal-handle-bar {
+  background: #272A38;
+  border: 2px solid #000;
+  border-radius: var(--radius-pill);
+  padding: 3px 18px;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+}
+
+.handle-dots {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  color: var(--volt-yellow);
+  letter-spacing: 2px;
+}
+
+.sheet-handle-zone:hover .brutal-handle-bar {
+  background: var(--volt-yellow);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0px #000;
+}
+
+.sheet-handle-zone:hover .handle-dots {
+  color: #000;
+}
+
+.sheet-scroll-body {
+  overflow-y: auto;
+  padding: 8px calc(16px + env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) calc(16px + env(safe-area-inset-left, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sheet-scroll-body::-webkit-scrollbar {
+  width: 5px;
+}
+.sheet-scroll-body::-webkit-scrollbar-thumb {
+  background: #2E303E;
+  border-radius: 3px;
+}
+
+/* ==========================================================================
+   Brutalist Card Containers
+   ========================================================================== */
+.brutal-card {
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  box-shadow: var(--brutal-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  transition: var(--spring-fast);
+}
+
+.card-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed #2A2C38;
+  padding-bottom: 10px;
+}
+
+.card-title-icon {
+  font-size: 16px;
+}
+
+.card-title-text {
+  flex: 1;
+  margin-left: 8px;
+  font-family: var(--font-display);
+  font-size: 0.96rem;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.card-sticker {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 800;
+  background: var(--volt-yellow);
+  color: #000;
+  padding: 2px 7px;
+  border-radius: 6px;
+  border: 1.5px solid #000;
+  box-shadow: 1.5px 1.5px 0px #000;
+  transform: rotate(2deg);
+}
+
+.card-sticker.mint {
+  background: var(--volt-mint);
+  transform: rotate(-2deg);
+}
+
+.card-sticker.pink {
+  background: var(--volt-pink);
+  color: #fff;
+  transform: rotate(1deg);
+}
+
+.card-sticker.yellow {
+  background: var(--volt-yellow);
+}
+
+/* ==========================================================================
+   Inputs & Autocomplete (Brutalist Fields)
+   ========================================================================== */
+.brutal-field-group {
+  position: relative;
+}
+
+.brutal-input-box {
+  display: flex;
+  align-items: center;
+  background: var(--volt-black);
+  border: var(--brutal-border);
+  border-radius: var(--radius-button);
+  padding: 0 10px;
+  height: 48px;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+}
+
+.brutal-input-box:focus-within {
+  border-color: #000;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px var(--volt-yellow);
+  background: #14151C;
+}
+
+.field-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 800;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.field-icon.origin-pin {
+  background: var(--volt-blue);
+  color: #fff;
+  box-shadow: 1px 1px 0px #000;
+}
+
+.field-icon.dest-pin {
+  background: var(--volt-pink);
+  color: #fff;
+  box-shadow: 1px 1px 0px #000;
+}
+
+.field-icon-static {
+  font-size: 16px;
+}
+
+.brutal-input-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: var(--font-headline);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+
+.brutal-input-box input::placeholder {
+  color: var(--text-muted);
+}
+
+.brutal-inline-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--volt-card-subtle);
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 0px #000;
+  transition: var(--spring-fast);
+}
+
+.brutal-inline-btn:hover {
+  background: var(--volt-yellow);
+  transform: scale(1.08);
+}
+
+/* Swap Action Row */
+.swap-action-row {
+  display: flex;
+  justify-content: center;
+  margin: -4px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.brutal-swap-btn {
+  background: #252834;
+  border: var(--brutal-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+}
+
+.brutal-swap-btn:hover {
+  background: var(--volt-yellow);
+  color: #000;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000;
+}
+
+.brutal-swap-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+/* Autocomplete Dropdown */
+.autocomplete-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: var(--radius-inner);
+  box-shadow: var(--brutal-shadow);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 100;
+  list-style: none;
+  display: none;
+}
+
+.autocomplete-dropdown.active {
+  display: block;
+}
+
+.autocomplete-dropdown li {
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1.5px dashed #2E303E;
+  transition: background 0.15s;
+}
+
+.autocomplete-dropdown li:hover {
+  background: var(--volt-yellow);
+  color: #000;
+  font-weight: 700;
+}
+
+/* Funky Preset Stickers */
+.presets-section {
+  margin-top: 4px;
+}
+
+.presets-section-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--volt-yellow);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.preset-stickers-tray {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.preset-stickers-tray::-webkit-scrollbar {
+  display: none;
+}
+
+.brutal-sticker {
+  background: #252834;
+  border: var(--brutal-border);
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-family: var(--font-headline);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+  flex-shrink: 0;
+}
+
+.brutal-sticker:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px #000;
+  background: var(--volt-mint);
+  color: #000;
+}
+
+.brutal-sticker:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+/* ==========================================================================
+   Two-Wheeler Steed Selector (Chunky EV Grid)
+   ========================================================================== */
+.ev-models-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.liquid-ev-card, .ev-card {
+  background: #20222C;
+  border: var(--brutal-border);
+  border-radius: var(--radius-inner);
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+  position: relative;
+}
+
+.liquid-ev-card:hover, .ev-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px #000;
+  background: #292C3A;
+}
+
+.liquid-ev-card.active, .ev-card.active {
+  background: var(--volt-yellow);
+  color: #000;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px #000;
+  border: var(--brutal-border-thick);
+}
+
+.ev-card-name {
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.2px;
+}
+
+.liquid-ev-card.active .ev-card-name, .ev-card.active .ev-card-name {
+  color: #000;
+}
+
+.ev-card-specs {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--volt-mint);
+  margin-top: 4px;
+}
+
+.liquid-ev-card.active .ev-card-specs, .ev-card.active .ev-card-specs {
+  color: #121316;
+}
+
+/* Custom EV Range input */
+.custom-range-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-range-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--volt-yellow);
+}
+
+.brutal-number-input {
+  width: 90px;
+  height: 38px;
+  background: var(--volt-black);
+  border: var(--brutal-border);
+  border-radius: 8px;
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 2px 2px 0px #000;
+}
+
+/* ==========================================================================
+   Battery & Corridor Sliders (Chunky Brutalist Controls)
+   ========================================================================== */
+.brutal-slider-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.slider-meta-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.brutal-badge-mono {
+  background: var(--volt-yellow);
+  color: #000;
+  border: 1.5px solid #000;
+  padding: 1px 7px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  box-shadow: 1.5px 1.5px 0px #000;
+}
+
+/* Chunky Range Slider */
+input[type="range"].brutal-range-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--volt-black);
+  border: 2px solid #000;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);
+  outline: none;
+  margin: 8px 0;
+}
+
+input[type="range"].brutal-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--volt-yellow);
+  border: 2.5px solid #000;
+  box-shadow: 2px 2px 0px #000;
+  cursor: pointer;
+  transition: var(--spring-fast);
+}
+
+input[type="range"].brutal-range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15) rotate(4deg);
+  background: #FFF04D;
+}
+
+/* Segmented Power Filter Deck */
+.brutal-segment-deck {
+  display: flex;
+  background: var(--volt-black);
+  border: var(--brutal-border);
+  border-radius: var(--radius-inner);
+  padding: 3px;
+  box-shadow: var(--brutal-shadow-sm);
+  gap: 4px;
+}
+
+.segment-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--spring-fast);
+  text-align: center;
+}
+
+.segment-btn:hover {
+  color: #fff;
+}
+
+.segment-btn.active {
+  background: var(--volt-mint);
+  color: #000;
+  border: 1.5px solid #000;
+  box-shadow: 1.5px 1.5px 0px #000;
+}
+
+/* ==========================================================================
+   Primary Action CTA Button (Volt Yellow Explosive Press)
+   ========================================================================== */
+.brutal-cta-btn {
+  width: 100%;
+  height: 56px;
+  border-radius: var(--radius-button);
+  background: var(--volt-yellow);
+  border: var(--brutal-border-thick);
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow-lg);
+  transition: var(--spring-fast);
+}
+
+.brutal-cta-btn:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0px #000;
+  background: #FFF266;
+}
+
+.brutal-cta-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.btn-spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-top-color: #000;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Flight Ticket / Itinerary Results Cards
+   ========================================================================== */
+.brutal-ticket-card {
+  background: var(--volt-card);
+  border: var(--brutal-border);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  box-shadow: var(--brutal-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.metrics-pill-grid, .trip-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.metric-glass-pill, .metric-box {
+  background: var(--volt-black);
+  border: 2px solid #000;
+  border-radius: var(--radius-inner);
+  padding: 10px 6px;
+  text-align: center;
+  box-shadow: var(--brutal-shadow-sm);
+}
+
+.metric-val {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.metric-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+/* Ticket Stubs Tray for Charging Stops */
+.ticket-stubs-tray, .stops-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.liquid-stop-card, .stop-item {
+  background: #21242E;
+  border: var(--brutal-border);
+  border-left: 6px solid var(--volt-yellow);
+  border-radius: var(--radius-inner);
+  padding: 12px 14px;
+  position: relative;
+  box-shadow: var(--brutal-shadow-sm);
+  cursor: pointer;
+  transition: var(--spring-fast);
+}
+
+.liquid-stop-card:hover, .stop-item:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px #000;
+  background: #2A2E3B;
+}
+
+.stop-seq-bubble, .stop-badge-seq {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--volt-yellow);
+  color: #000;
+  font-family: var(--font-mono);
+  font-weight: 800;
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1.5px solid #000;
+  box-shadow: 1.5px 1.5px 0px #000;
+}
+
+.stop-title, .stop-name {
+  font-family: var(--font-headline);
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--volt-yellow);
+}
+
+.stop-details, .stop-meta {
+  font-family: var(--font-body);
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+/* Detours List Tray */
+.detours-list-tray, .detours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.liquid-detour-item, .detour-item {
+  background: var(--volt-black);
+  border: var(--brutal-border);
+  border-left: 5px solid var(--volt-pink);
+  border-radius: 10px;
+  padding: 9px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #000;
+  transition: var(--spring-fast);
+}
+
+.liquid-detour-item:hover, .detour-item:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000;
+  border-color: var(--volt-pink);
+}
+
+.detour-name-text, .detour-name {
+  font-family: var(--font-headline);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+  max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detour-pill-badge, .detour-penalty {
+  background: var(--volt-pink);
+  color: #fff;
+  border: 1.5px solid #000;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+  box-shadow: 1.5px 1.5px 0px #000;
+}
+
+/* Navigation Action Pill */
+.brutal-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 50px;
+  background: var(--volt-blue);
+  border: var(--brutal-border-thick);
+  border-radius: var(--radius-button);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 0.94rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: var(--brutal-shadow);
+  transition: var(--spring-fast);
+}
+
+.brutal-nav-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000;
+  background: #3F6DFF;
+}
+
+.brutal-nav-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+/* ==========================================================================
+   Map Markers & Leaflet Overlays (Semi-Brutalist Pins)
+   ========================================================================== */
+.leaflet-popup-content-wrapper {
+  background: var(--volt-dark) !important;
+  color: #fff !important;
+  border: var(--brutal-border-thick) !important;
+  border-radius: 14px !important;
+  box-shadow: var(--brutal-shadow) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--volt-dark) !important;
+}
+
+.charger-popup-card h4 {
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--volt-yellow);
+  margin-bottom: 6px;
+}
+
+.charger-popup-card p {
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin: 2px 0;
+}
+
+.popup-nav-link {
+  display: inline-block;
+  margin-top: 8px;
+  background: var(--volt-yellow);
+  border: 2px solid #000;
+  color: #000;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-family: var(--font-headline);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 2px 2px 0px #000;
+}
+
+/* Pulsing Charging Stop Marker */
+.pulse-marker-wrapper {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.pulse-marker-core {
+  width: 28px;
+  height: 28px;
+  background: var(--volt-yellow);
+  border: 2.5px solid #000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  box-shadow: 2px 2px 0px #000;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 2;
+  color: #000;
+}
+
+.pulse-ring {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 230, 0, 0.4);
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: pulse-brutal 1.6s ease-out infinite;
+}
+
+@keyframes pulse-brutal {
+  0% { transform: scale(0.8); opacity: 0.9; }
+  100% { transform: scale(2.0); opacity: 0; }
+}
+
+/* ==========================================================================
+   Semi-Brutalist Setup Modal
+   ========================================================================== */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(12, 13, 16, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.brutal-modal-box {
+  width: 100%;
+  max-width: 440px;
+  background: var(--volt-card);
+  border: var(--brutal-border-thick);
+  border-radius: var(--radius-card);
+  box-shadow: var(--brutal-shadow-xl);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalPop 0.22s var(--spring-smooth);
+}
+
+@keyframes modalPop {
+  from { opacity: 0; transform: scale(0.92) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.brutal-modal-header {
+  padding: 14px 18px;
+  background: var(--volt-yellow);
+  border-bottom: var(--brutal-border-thick);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-title-text {
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.brutal-close-btn {
+  width: 28px;
+  height: 28px;
+  background: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  transition: var(--spring-fast);
+}
+
+.brutal-close-btn:hover {
+  background: var(--volt-pink);
+  transform: scale(1.1);
+}
+
+.brutal-modal-body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-tagline {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.modal-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--volt-yellow);
+  margin-bottom: 4px;
+  display: block;
+}
+
+.modal-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brutal-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--volt-yellow);
+  cursor: pointer;
+}
+
+.checkbox-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.brutal-guide-callout {
+  background: var(--volt-black);
+  border: var(--brutal-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: var(--brutal-shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.callout-badge {
+  background: var(--volt-mint);
+  color: #000;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.callout-text {
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+}
+
+.callout-link {
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  color: var(--volt-yellow);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.brutal-modal-footer {
+  padding: 14px 18px;
+  border-top: 2px solid #272A38;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.brutal-modal-cancel {
+  background: #252834;
+  border: var(--brutal-border);
+  border-radius: var(--radius-button);
+  color: #fff;
+  padding: 8px 16px;
+  font-family: var(--font-headline);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow-sm);
+  transition: var(--spring-fast);
+}
+
+.brutal-modal-cancel:hover {
+  background: var(--volt-card-subtle);
+  transform: translate(-1px, -1px);
+}
+
+.brutal-modal-submit {
+  background: var(--volt-yellow);
+  border: var(--brutal-border);
+  border-radius: var(--radius-button);
+  color: #000;
+  padding: 8px 18px;
+  font-family: var(--font-display);
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: var(--brutal-shadow);
+  transition: var(--spring-fast);
+}
+
+.brutal-modal-submit:hover {
+  background: #FFF04D;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px #000;
+}
+
+.brutal-modal-submit:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}

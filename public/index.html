@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>JUICED ⚡ Two-Wheeler EV Corridor Planner</title>
+  <meta name="description" content="JUICED - Semi-Brutalist, Funky two-wheeler EV route planner and Type-6 fast charging corridor optimizer across Kerala and Tamil Nadu." />
+  <link rel="icon" type="image/png" href="juiced_logo.png" />
+
+  <!-- Funky Semi-Brutalist Typography Stack (Syne, Space Grotesk, Space Mono, Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Grotesk:wght@500;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet Map CSS (Bundled Local Asset) -->
+  <link rel="stylesheet" href="leaflet.css" />
+  <!-- Semi-Brutalist Design System -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="mobile-app-shell" id="appShell">
+    
+    <!-- Semi-Brutalist Launch Loading Deck -->
+    <div class="brutal-splash-screen" id="splashScreen" role="status" aria-live="polite">
+      <div class="splash-inner-box">
+        <div class="splash-logo-wrapper">
+          <div class="splash-logo-glow"></div>
+          <div class="splash-logo-card">
+            <img src="juiced_logo.png" alt="JUICED" class="splash-logo-img" />
+          </div>
+          <div class="splash-spark-tag">⚡ 100% JUICED</div>
+        </div>
+
+        <div class="splash-brand-group">
+          <h1 class="splash-title">JUICED</h1>
+          <div class="splash-tagline">TWO-WHEELER EV CORRIDOR PLANNER</div>
+        </div>
+
+        <!-- Chunky Brutalist Progress Bar -->
+        <div class="splash-loader-block">
+          <div class="splash-progress-track">
+            <div class="splash-progress-bar" id="splashProgressBar"></div>
+          </div>
+          <div class="splash-meta-row">
+            <span class="splash-status-ticker" id="splashStatusTicker">INITIALIZING GRID...</span>
+            <span class="splash-percent-text" id="splashPercentText">0%</span>
+          </div>
+        </div>
+
+        <div class="splash-footer-pills">
+          <span class="splash-sub-pill">BOLT.EARTH TYPE-6</span>
+          <span class="splash-sub-pill">FAST CORRIDOR</span>
+          <span class="splash-sub-pill">DUAL ENGINE</span>
+        </div>
+
+        <button type="button" class="splash-skip-btn" id="splashSkipBtn">TAP TO SKIP &rarr;</button>
+      </div>
+    </div>
+
+    <!-- Full-Bleed Map Canvas -->
+    <div class="map-canvas-container">
+      <div id="map"></div>
+    </div>
+
+    <!-- Floating Semi-Brutalist Top Deck -->
+    <header class="brutal-top-bar" id="topStatusIsland">
+      <div class="top-bar-left">
+        <div class="brutal-logo-badge" title="JUICED EV">
+          <img src="juiced_logo.png" alt="JUICED Logo" class="brand-logo-img" />
+        </div>
+        <div class="brutal-brand-title">
+          <div class="brand-line-main">
+            <span class="brand-text">JUICED</span>
+            <span class="brutal-tag-pill">TYPE-6</span>
+          </div>
+          <div class="brutal-subtag" id="networkStatsBadge">
+            <span class="pulse-status-dot"></span> 183 STATIONS
+          </div>
+        </div>
+      </div>
+
+      <div class="top-bar-right">
+        <button type="button" class="brutal-btn-pill engine-badge" id="mapEngineBadge" title="Click to Toggle Google Maps / OSM">
+          <span class="engine-dot" id="engineDot"></span>
+          <span id="engineStatusText">OSM MAP</span>
+        </button>
+        <button type="button" class="brutal-btn-icon" id="btnOpenKeyModal" title="Google Maps API Key Setup">
+          <span>🔑</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Floating Brutalist Legend Sticker -->
+    <div class="brutal-map-legend" id="mapOverlay">
+      <div class="legend-header">LEGEND 📌</div>
+      <div class="legend-items-list">
+        <div class="legend-badge on-corridor"><span class="badge-dot"></span> DIRECT PATH</div>
+        <div class="legend-badge fast-stop"><span class="badge-dot"></span> EV STOP ⭐</div>
+        <div class="legend-badge detour"><span class="badge-dot"></span> DETOUR ↪️</div>
+        <div class="legend-badge bolt-net"><span class="badge-dot"></span> BOLT.EARTH</div>
+      </div>
+      <button type="button" class="engine-toggle-btn" id="btnToggleEngine" style="display: none;">
+        <span>🔄 Toggle Engine</span>
+      </button>
+    </div>
+
+    <!-- Floating Semi-Brutalist Control Deck (Bottom Sheet with Spring Drag) -->
+    <aside class="bottom-sheet" id="bottomSheet">
+      <!-- Tactile Grab Handle Bar -->
+      <div class="sheet-handle-zone" id="sheetHandleZone" title="Click to collapse / expand deck">
+        <div class="brutal-handle-bar">
+          <span class="handle-dots">● ● ●</span>
+        </div>
+      </div>
+
+      <!-- Scrollable Deck Content -->
+      <div class="sheet-scroll-body" id="sheetScrollBody">
+
+        <!-- 1. ROUTE LAUNCHPAD CARD -->
+        <section class="brutal-card card-yellow-accent">
+          <div class="card-header-bar">
+            <span class="card-title-icon">📍</span>
+            <h2 class="card-title-text">ROUTE LAUNCHPAD</h2>
+            <span class="card-sticker">STAGE 01</span>
+          </div>
+
+          <!-- Origin Box -->
+          <div class="brutal-field-group">
+            <div class="brutal-input-box" id="originCapsule">
+              <span class="field-icon origin-pin">A</span>
+              <input type="text" id="originInput" placeholder="Start city, town, landmark..." autocomplete="off" />
+              <button type="button" class="brutal-inline-btn" id="btnCurrentLocation" title="Use current GPS location">🎯</button>
+            </div>
+            <ul class="autocomplete-dropdown" id="originDropdown"></ul>
+          </div>
+
+          <!-- Quick Swap Action -->
+          <div class="swap-action-row">
+            <button type="button" class="brutal-swap-btn" id="btnSwapPoints" title="Swap Origin and Destination">
+              <span class="swap-symbol">⇄</span>
+              <span class="swap-label">REVERSE</span>
+            </button>
+          </div>
+
+          <!-- Destination Box -->
+          <div class="brutal-field-group">
+            <div class="brutal-input-box" id="destCapsule">
+              <span class="field-icon dest-pin">B</span>
+              <input type="text" id="destInput" placeholder="Destination city, hill station..." autocomplete="off" />
+              <span class="field-icon-static">🏁</span>
+            </div>
+            <ul class="autocomplete-dropdown" id="destDropdown"></ul>
+          </div>
+
+          <!-- Funky Preset Stickers -->
+          <div class="presets-section">
+            <span class="presets-section-label">⚡ POPULAR HIGHWAY RUNS:</span>
+            <div class="preset-stickers-tray">
+              <button type="button" class="brutal-sticker route-chip" data-o="9.9312,76.2673" data-d="11.0168,76.9558" data-ol="Kochi" data-dl="Coimbatore">Kochi ➔ Coimbatore</button>
+              <button type="button" class="brutal-sticker route-chip" data-o="11.2588,75.7804" data-d="10.5276,76.2144" data-ol="Calicut" data-dl="Thrissur">Calicut ➔ Thrissur</button>
+              <button type="button" class="brutal-sticker route-chip" data-o="9.9816,76.2999" data-d="8.5241,76.9366" data-ol="Ernakulam" data-dl="Trivandrum">Ernakulam ➔ Trivandrum</button>
+              <button type="button" class="brutal-sticker route-chip" data-o="13.0827,80.2707" data-d="12.9165,79.1325" data-ol="Chennai" data-dl="Vellore">Chennai ➔ Vellore</button>
+              <button type="button" class="brutal-sticker route-chip" data-o="10.7867,76.6548" data-d="11.3410,77.7172" data-ol="Palakkad" data-dl="Erode">Palakkad ➔ Erode</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. TWO-WHEELER STEED SELECTOR -->
+        <section class="brutal-card card-mint-accent">
+          <div class="card-header-bar">
+            <span class="card-title-icon">🛵</span>
+            <h2 class="card-title-text">SELECT YOUR STEED</h2>
+            <span class="card-sticker mint">VEHICLE</span>
+          </div>
+
+          <div class="ev-models-grid" id="evModelsGrid">
+            <!-- Dynamically populated via app.js -->
+          </div>
+
+          <!-- Custom EV Range Panel -->
+          <div class="custom-ev-panel" id="customEvPanel" style="display: none; margin-top: 10px;">
+            <div class="custom-range-row">
+              <label for="customRangeInput" class="custom-range-label">CUSTOM RANGE (KM):</label>
+              <input type="number" id="customRangeInput" value="120" min="40" max="350" class="brutal-number-input" />
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. BATTERY & CORRIDOR TUNER -->
+        <section class="brutal-card card-pink-accent">
+          <div class="card-header-bar">
+            <span class="card-title-icon">🔋</span>
+            <h2 class="card-title-text">CORRIDOR &amp; BATTERY</h2>
+            <span class="card-sticker pink">TUNER</span>
+          </div>
+
+          <!-- Departure Battery SoC -->
+          <div class="brutal-slider-row">
+            <div class="slider-meta-head">
+              <span class="meta-label">DEPARTURE BATTERY (SoC)</span>
+              <span class="brutal-badge-mono" id="valStartSoc">90%</span>
+            </div>
+            <input type="range" id="sliderStartSoc" min="20" max="100" value="90" step="5" class="brutal-range-slider" />
+          </div>
+
+          <!-- Reserve Margin -->
+          <div class="brutal-slider-row">
+            <div class="slider-meta-head">
+              <span class="meta-label">RESERVE SAFETY BUFFER</span>
+              <span class="brutal-badge-mono" id="valReserveSoc">15%</span>
+            </div>
+            <input type="range" id="sliderReserveSoc" min="5" max="30" value="15" step="5" class="brutal-range-slider" />
+          </div>
+
+          <!-- Corridor Buffer Width -->
+          <div class="brutal-slider-row">
+            <div class="slider-meta-head">
+              <span class="meta-label">CORRIDOR SEARCH WIDTH</span>
+              <span class="brutal-badge-mono" id="valCorridorWidth">3.0 km</span>
+            </div>
+            <input type="range" id="sliderCorridorWidth" min="1.0" max="10.0" value="3.0" step="0.5" class="brutal-range-slider" />
+          </div>
+
+          <!-- Power Filter Toggle Segment -->
+          <div class="brutal-slider-row" style="margin-top: 6px;">
+            <span class="meta-label" style="margin-bottom: 6px; display: block;">MIN CHARGING POWER RATE:</span>
+            <div class="brutal-segment-deck">
+              <button type="button" class="segment-btn filter-chip active" data-power="">ALL (3.3kW+)</button>
+              <button type="button" class="segment-btn filter-chip" data-power="6.0">6.6kW+ FAST</button>
+              <button type="button" class="segment-btn filter-chip" data-power="10.0">10kW ULTRA</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. PRIMARY ACTION CTA BUTTON -->
+        <button type="button" class="brutal-cta-btn" id="btnPlanRoute">
+          <span class="btn-spinner" id="planSpinner" style="display: none;"></span>
+          <span class="cta-bold-text">⚡ CRUNCH ROUTE &amp; CORRIDOR</span>
+        </button>
+
+        <!-- 5. RESULTS CONTAINER (Appears when route is calculated) -->
+        <div id="resultsContainer" style="display: none; display: flex; flex-direction: column; gap: 14px;">
+          
+          <!-- Flight / Trip Overview Ticket -->
+          <section class="brutal-ticket-card" id="tripSummaryCard">
+            <!-- Dynamically populated via app.js -->
+          </section>
+
+          <!-- Recommended Fast Charging Stops (Ticket Stubs) -->
+          <section class="brutal-card card-stops">
+            <div class="card-header-bar">
+              <span class="card-title-icon">⭐</span>
+              <h2 class="card-title-text" style="color: #FFE600;">FAST CHARGING STOPS</h2>
+              <span class="card-sticker yellow">ITINERARY</span>
+            </div>
+            <div id="stopsList" class="ticket-stubs-tray">
+              <!-- Dynamically populated via app.js -->
+            </div>
+          </section>
+
+          <!-- Viable Detour Stations Card -->
+          <section class="brutal-card card-detours">
+            <div class="card-header-bar">
+              <span class="card-title-icon">↪️</span>
+              <h2 class="card-title-text" style="color: #FF3366;">OFF-PATH DETOURS</h2>
+              <span class="card-sticker pink">VIABLE</span>
+            </div>
+            <div id="detoursList" class="detours-list-tray">
+              <!-- Dynamically populated via app.js -->
+            </div>
+          </section>
+
+          <!-- Navigation Pill -->
+          <a href="#" id="btnOpenGoogleMaps" target="_blank" class="brutal-nav-btn">
+            <span>🗺️ OPEN IN GOOGLE MAPS (TURN-BY-TURN) ➔</span>
+          </a>
+        </div>
+
+      </div>
+    </aside>
+  </div>
+
+  <!-- Brutalist Google Maps Native Setup Modal -->
+  <div class="modal-backdrop" id="keyModalBackdrop" style="display: none;">
+    <div class="brutal-modal-box">
+      <div class="brutal-modal-header">
+        <div class="modal-title-row">
+          <span class="modal-title-emoji">🗺️</span>
+          <h3 class="modal-title-text">GOOGLE MAPS ENGINE SETUP</h3>
+        </div>
+        <button type="button" class="brutal-close-btn" id="btnCloseKeyModal">&times;</button>
+      </div>
+      
+      <div class="brutal-modal-body">
+        <p class="modal-tagline">
+          Activate <strong>Native Google Maps</strong> inside JUICED for satellite imagery, live highway traffic, and native rendering.
+        </p>
+
+        <div class="modal-field-group">
+          <label for="inputGoogleApiKey" class="modal-label">GOOGLE CLOUD API KEY:</label>
+          <div class="brutal-input-box modal-key-box">
+            <input type="password" id="inputGoogleApiKey" placeholder="AIzaSy..." autocomplete="off" />
+            <button type="button" class="brutal-inline-btn" id="btnToggleKeyVisibility" title="Toggle visibility">👁️</button>
+          </div>
+        </div>
+
+        <div class="modal-checkbox-row">
+          <input type="checkbox" id="chkSaveToEnv" checked class="brutal-checkbox" />
+          <label for="chkSaveToEnv" class="checkbox-label">SAVE PERMANENTLY TO <code>.env</code> CONFIG</label>
+        </div>
+
+        <div class="brutal-guide-callout">
+          <span class="callout-badge">PRO TIP</span>
+          <span class="callout-text">Need a free key? </span>
+          <a href="/static/docs/google_maps_api_setup_guide.md" target="_blank" class="callout-link">
+            4-step setup guide ($200 free monthly credit)
+          </a>
+        </div>
+      </div>
+
+      <div class="brutal-modal-footer">
+        <button type="button" class="brutal-modal-cancel" id="btnCancelKeyModal">DISMISS</button>
+        <button type="button" class="brutal-modal-submit" id="btnSaveGoogleKey">⚡ ACTIVATE ENGINE</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS (Bundled Local Asset) -->
+  <script src="leaflet.js"></script>
+  <!-- Embedded Offline Chargers Database -->
+  <script src="chargers_data.js"></script>
+  <!-- App Logic (Bundled Local Asset) -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bolt.Earth EV Chargers - Type-6 DC Fast (Kerala &amp; Tamil Nadu)</name>
+    <description>Public Bolt.Earth Type-6 DC Fast Charging stations for 2-Wheeler EVs across Kerala and Tamil Nadu.</description>
+    <Style id="fastChargerIcon">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Bolt.Earth Station (695015) - L1DC0036</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0036&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 695015,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.552551,76.942884" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.942884,8.552551,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EngineerMode Private Limited</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0035&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; EngineerMode Private Limited, SmartSolar 2Nd floor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.552623,76.942915" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.942915,8.552623,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>N/16390</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0144&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; N/16390, SH1, Aradhana Nagar&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.55264,76.943021" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.943021,8.55264,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shastri Nagar</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0276&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Shastri Nagar, Poojapura&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.49211,76.974163" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.974163,8.49211,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Door No 46/2406</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0428&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Door No 46/2406, Ravel Building, Karamana - Poojapura Rd, Prem Nagar, Karamana, Thiruvananthapuram, Kerala 695002&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.481265,76.964156" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.964156,8.481265,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Door No 46/2406</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0430&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Door No 46/2406, Ravel Building, Karamana - Poojapura Rd, Prem Nagar, Karamana, Thiruvananthapuram, Kerala 695002&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.481034,76.964101" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.964101,8.481034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tc:2305/1</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0595&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Tc:2305/1,kulathoor,trivandrum 695583&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.542146,76.875755" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.875755,8.542146,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Athira bhavan pvra47</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0589&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Athira bhavan pvra47, opp technopark phase I, kazhakootam, trivandrum Kerala 695582&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.556885,76.876021" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.876021,8.556885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PVMX+Q5H</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0027&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; PVMX+Q5H, Karette, Kerala 695612&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.734444,76.898022" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.898022,8.734444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Akshaya  EV Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0037&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Akshaya  EV Charging Station, Akshaya Centre,MLA jn Nedungolam PO Paravoor Chathannoor  Road, Kollam, Pin: 691334&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.838668,76.687017" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.687017,8.838668,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thiruvonam. Veppalinmoodu.</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0439&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Thiruvonam. Veppalinmoodu.&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.802395,76.698483" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.698483,8.802395,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (695141) - L1DC0123</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0123&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 695141,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.727772,76.710729" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.710729,8.727772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TB Junction-Hospital Junction Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0772&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; TB Junction-Hospital Junction Road, Vazhuthoor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.40805,77.081235" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.081235,8.40805,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25/66</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0191&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 25/66, Poovar - Neyyatinkara Road, Alummoodu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.394397,77.088783" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.088783,8.394397,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BSR Fast Charging Center</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0581&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; BSR Fast Charging Center, Olathanni Neyyattinkara 695121&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.375908,77.081732" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.081732,8.375908,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santhy sabarimuttam kamukincode kodangavila PO with Pincode 695123 kamukincode opp:canara bank</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0091&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Santhy sabarimuttam kamukincode kodangavila PO with Pincode 695123 kamukincode opp:canara bank&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.393112,77.061835" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.061835,8.393112,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (695528) - L1DC0064</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0064&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 695528,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.442731,77.045446" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.045446,8.442731,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Neyyattinkara Kattakkada Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0769&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Neyyattinkara Kattakkada Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.462869,77.069309" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.069309,8.462869,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Electric Spares &amp; Service</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0155&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Electric Spares &amp; Service, near SBI, puthukulangara, Nedumangad, Thiruvananthapuran, Kerala 695541&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.592898,77.04358" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.04358,8.592898,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (695019) - L1DC0158</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0158&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 695019,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.468997,77.005247" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.005247,8.468997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (695019) - L1DC0124</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0124&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 695019,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.469067,77.00485" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.00485,8.469067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Best EV Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0063&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Best EV Charging Station, Old NH, Karunagapally, 690518&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.046038,76.53661" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.53661,9.046038,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Reneva Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0196&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Reneva Charging Station,  MileNo.7 Convection Centre, Kadampanad, Kerala, 691553&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.081225,76.6731" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.6731,9.081225,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aditya Green Power Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0202&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Aditya Green Power Charging Station, MC Road, 691554&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.180407,76.709086" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.709086,9.180407,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kottarakkara - Kottayam Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0134&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kottarakkara - Kottayam Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.208784,76.687993" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.687993,9.208784,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Artemis EV Supercharger Chunakara Naduvil Charummoodu Alappuzha District Kerala Pin 690534</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0139&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Artemis EV Supercharger Chunakara Naduvil Charummoodu Alappuzha District Kerala Pin 690534&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.198891,76.600164" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.600164,9.198891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mannil Green Charging StationKayamkulam Thiruvalla Road Mavelikkara Alappuzha</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0166&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Mannil Green Charging StationKayamkulam Thiruvalla Road Mavelikkara Alappuzha, 690105&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.283259,76.530729" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.530729,9.283259,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alappuzha - Changanassery Hwy</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0076&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Alappuzha - Changanassery Hwy, Perunna, Changanassery, Kerala 686102&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.43752,76.541957" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.541957,9.43752,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chirayil Ultra Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0092&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Chirayil Ultra Charging Station, MC Road, Pallom, Kottayam, 686007, Kerala, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.529075,76.514735" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.514735,9.529075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VPV6+6P2 Matha Shopping Arcade</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0075&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; VPV6+6P2 Matha Shopping Arcade, Pala Road, Thodupuzha, Kerala 685584, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.892843,76.711836" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.711836,9.892843,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thayil 2</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0270&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Thayil 2,3 &amp; 4 wheeler DC Fast Charging Sation Teekoy 686580&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.699917,76.806848" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.806848,9.699917,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arunapuram</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0011&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Arunapuram&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.705243,76.663799" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.663799,9.705243,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chalikadavu Bridge</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0022&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Chalikadavu Bridge&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.991904,76.588409" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.588409,9.991904,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SJRRA-158</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0351&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SJRRA-158, Kaloor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.997317,76.302118" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.302118,9.997317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (682017) - L1DC0077</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0077&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 682017,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.997561,76.302032" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.302032,9.997561,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MDS FELLOWSHIP</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0269&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; MDS FELLOWSHIP, JLN Stadium round Ernakulam 682025&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.997381,76.302101" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.302101,9.997381,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chalikkavattom</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0021&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Chalikkavattom, Vennala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.987289,76.316163" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.316163,9.987289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>simple Energy kochi</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0132&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; simple Energy kochi , vennala , kochi pin 682032&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.987355,76.315996" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.315996,9.987355,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Service Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0183&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Service Road, Thykoodam, Vyttila&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.960512,76.318138" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.318138,9.960512,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (688006) - L1DC0115</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0115&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 688006,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.527352,76.348132" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.348132,9.527352,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bernad Junction Near Kalavoor</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0046&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Bernad Junction Near Kalavoor, Pathirappally P.O. Alappuzha District – 688521 Kerala, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=9.559344,76.328226" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.328226,9.559344,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prabha EV Charging Station Elarankadappuram</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0120&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Prabha EV Charging Station Elarankadappuram, Near govt hospital, Tanur, Malappuram, Kerala, 676302&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.983371,75.870075" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.870075,10.983371,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>IDBI BANK</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0437&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; IDBI BANK , PANBAZAR, MALAPPURAM ROAD,TIRUR MALAPPURAM,676101&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.921282,75.928256" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.928256,10.921282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Popular Textiles</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0032&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Popular Textiles, Veliancode Town, Veliancode, Kerala 679579&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.72917,75.947262" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.947262,10.72917,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>48CR+JGW</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0262&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 48CR+JGW, NH544, Thottakkattukara, Aluva, Kerala 683102, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.122071,76.341033" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.341033,10.122071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>National Highway 544</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0096&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; National Highway 544, Thottakkattukara&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.121656,76.341278" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.341278,10.121656,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wisdom EV Charging Station Mekkad</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0204&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Wisdom EV Charging Station Mekkad, Athani, Angamaly Ernakulam, 683589 Kerala India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.166014,76.355025" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.355025,10.166014,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Athani Mekkad Elavoor Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0127&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Athani Mekkad Elavoor Road, Mekkad 683589&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.165975,76.354974" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.354974,10.165975,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>State Highway 16</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0108&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; State Highway 16, Edathala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.087546,76.368086" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.368086,10.087546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Melekodakkad</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0009&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Melekodakkad, Palakkad- Kozhikode Road, Palakkad Pincode: 678521&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.976692,76.367719" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.367719,10.976692,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lakshmi_KRS Fast EV Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0081&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Lakshmi_KRS Fast EV Charging Station, Near Boothathankotta Ayyappa Temple, Mannarkkad Road, Thiruvazhiyode,&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.898122,76.395342" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.395342,10.898122,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (682030) - L1DC0176</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0176&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 682030,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.021383,76.353937" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.353937,10.021383,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (682030) - L1DC0542</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0542&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 682030,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.021386,76.353909" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.353909,10.021386,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19th Mile</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0038&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 19th Mile, SRK Nagar&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.770549,76.396379" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.396379,10.770549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Olive Courtyard Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0066&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Olive Courtyard Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.017404,76.363174" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.363174,10.017404,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punarjani gardens</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0156&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Punarjani gardens, Thiruvalamala, Kerala 680588&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.710349,76.42867" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.42867,10.710349,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punarjani gardens</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0149&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Punarjani gardens, Thiruvalamala, Kerala 680588&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.710348,76.428678" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.428678,10.710348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punarjani gardens</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0154&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Punarjani gardens, Thiruvalamala, Kerala 680588&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.710345,76.428607" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.428607,10.710345,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>State Highway 1</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0493&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; State Highway 1, Mattoor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.171476,76.428375" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.428375,10.171476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pallikkara</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0151&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Pallikkara&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.028413,76.415321" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.415321,10.028413,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Angamali - Cochin Airport Rd</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0458&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Angamali - Cochin Airport Rd, AJ Nagar, Angamaly, Nedumbassery, Kerala 683572&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.185247,76.397512" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.397512,10.185247,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (683572) - L1DC0497</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0497&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 683572,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.18526,76.397435" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.397435,10.18526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EV2 Wheels</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0569&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; EV2 Wheels, Shamrock plaza, Near SNDP junction, Angamaly manjapra road, 683572&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.196229,76.393114" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.393114,10.196229,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Government Hospital</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0099&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Government Hospital, Thankalam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.066866,76.618711" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.618711,10.066866,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amigo</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0467&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Amigo, Restaurant, Panthalampadam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.583999,76.436162" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.436162,10.583999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Near</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0483&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Near, Avitis Hospital Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.593588,76.583511" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.583511,10.593588,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Smart wheels Ambattupalayam</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0125&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Smart wheels Ambattupalayam,chittur thathamangalam palakkad kerala 678104&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.695146,76.72995" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.72995,10.695146,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Smart wheels Ambattupalayam</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0136&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Smart wheels Ambattupalayam,chittur thathamangalam palakkad kerala 678104&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.695162,76.729977" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.729977,10.695162,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eltech wheel Alignment</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0051&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Eltech wheel Alignment, NH 49 Camco jn Adimaly&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.01468,76.9486" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.9486,10.01468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Peak Power</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0026&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Peak Power, Thripayyar, kerala-680564&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.416626,76.15339" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.15339,10.416626,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Therattil House</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0071&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Therattil House, Opp. Rose gardens, Thiruvambadi P.O, Thrissur 680022, Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.541869,76.21324" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.21324,10.541869,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cheloor Citadel</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0141&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Cheloor Citadel, Punkunnam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.531498,76.202115" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.202115,10.531498,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>:Anchorage Plaza Mundupalam Avenue Road  Thrissur  680006</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0017&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; :Anchorage Plaza Mundupalam Avenue Road  Thrissur  680006&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.511572,76.221228" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.221228,10.511572,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AIMA EV charging station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0020&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; AIMA EV charging station, karinganad, Chanthappadi, 679309&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.887585,76.189845" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.189845,10.887585,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karinganad</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0319&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Karinganad, Chanthappadi&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.887544,76.189833" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.189833,10.887544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (679322) - L1DC0001</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0001&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 679322,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.943501,76.225297" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.225297,10.943501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valambur Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0435&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Valambur Road, Tirurkad&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.99118,76.183461" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.183461,10.99118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>X6G8+8XR</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0438&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; X6G8+8XR, Calicut Rd, Perinthalmanna, Kerala 679322, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.975651,76.217284" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.217284,10.975651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAM CHARGING STATION</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0599&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SAM CHARGING STATION, MALAPARAMBU, PALACHODU&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.950084,76.162609" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.162609,10.950084,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vk food cafe School padi Cherukulamba</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0004&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Vk food cafe School padi Cherukulamba, Chattiparamba&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.996038,76.095696" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.095696,10.996038,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baboos Triangle Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0052&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Baboos Triangle Charging Station, Kallumpuram, Thrissur,Kerala, 680543&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.719782,76.07771" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.07771,10.719782,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>E-Fusion Charging Station Global Point Palakkad - Ponnani Rd</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0065&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; E-Fusion Charging Station Global Point Palakkad - Ponnani Rd, Edappal, Kerala, pincode: 679576&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.784095,76.006563" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.006563,10.784095,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (679552) - L1DC0133</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0133&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 679552,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.786822,76.070218" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.070218,10.786822,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shornur - Perinthalmanna Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0119&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Shornur - Perinthalmanna Road, Shanti Nagar&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.974951,76.225656" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.225656,10.974951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>cherpussery</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0198&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; cherpussery,mocca parking,near samia textiles pincode: 679503&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.87851,76.311286" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.311286,10.87851,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Christopher Nagar</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0189&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Christopher Nagar, ollur P O, Thrissur Infront of Hitachi ATM&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.488444,76.238184" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.238184,10.488444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (680014) - L1DC0047</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0047&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 680014,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.493673,76.254093" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.254093,10.493673,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gupta House Kuttanellur Thrissur thrissur 680014</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0311&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Gupta House Kuttanellur Thrissur thrissur 680014&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.49366,76.254006" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.254006,10.49366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plug&amp;PayAnchery Near Anchery School</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0188&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Plug&amp;PayAnchery Near Anchery School ,Opposit Anchery moospet Co operative Bank 680006&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.504793,76.240187" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.240187,10.504793,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thrissur Mannamangalam Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0163&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Thrissur Mannamangalam Road, Nellikunnu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.511661,76.239362" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.239362,10.511661,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tessar Venture Ward No. 22</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0062&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Tessar Venture Ward No. 22, Door No. 351/1 Chelakkotukara Valarkavu Junction Thrissur Pin: 680006&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.511648,76.239315" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.239315,10.511648,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unnichira</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0056&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Unnichira, Koonamthai, Edappally&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.028651,76.310996" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.310996,10.028651,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kaalathodu Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0109&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kaalathodu Road,Kalathode,Thrissur,Pincode: 680005&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.523981,76.246001" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.246001,10.523981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuttumuck - Nettissery Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0440&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kuttumuck - Nettissery Road, Unity Nagar, Nettissery&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.539658,76.253838" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.253838,10.539658,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thrissur - Palghat Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0472&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Thrissur - Palghat Road, Sreyas Nagar, Ollukkara&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.528871,76.255704" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.255704,10.528871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Charge n chill Paliyam road Karimpadam Chendamangalam Pin 683513</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0089&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Charge n chill Paliyam road Karimpadam Chendamangalam Pin 683513&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.165448,76.233144" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.233144,10.165448,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kodungallur - Shornur Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0093&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kodungallur - Shornur Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.644274,76.236745" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.236745,10.644274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SR power hub</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0005&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SR power hub, pathamkallu wadakkanchery Thrissur Kerala 680582&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.644457,76.23716" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.23716,10.644457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>H84F+P4M</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0050&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; H84F+P4M, NH 544, Pattikkad, Pananchery, Kerala 680652, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.556696,76.323294" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.323294,10.556696,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MNRA/11</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0786&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; MNRA/11, Pipeline Rd, Maveli Nagar, Vidya Nagar Colony, Thrikkakara, Edappally, Kochi, Kerala 682022, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.033987,76.325659" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.325659,10.033987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (682030) - L1DC0721</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0721&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 682030,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.012831,76.337535" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.337535,10.012831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramway</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0560&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Tramway, Line, Attathode Junction, Chalakudy, Kerala 680307&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.312246,76.336805" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.336805,10.312246,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>88/3</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0571&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 88/3, Ummalathoor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.268369,75.831183" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.831183,11.268369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ummalathoor</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0181&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Ummalathoor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.268393,75.831171" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.831171,11.268393,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SK VOLT HUB</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0180&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SK VOLT HUB, KOVOOR , Chevayur (Po), Calicut -673017&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.268201,75.831184" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.831184,11.268201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>K.T.para masjid</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0185&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; K.T.para masjid&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.268343,75.831194" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.831194,11.268343,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VK BUILDING</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0431&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; VK BUILDING, PULLAATTUTHAZHAM, KURUVATTOOR, CALICUT - 673611&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.327631,75.83826" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.83826,11.327631,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18/335</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0549&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 18/335, CWRDM Road, Palakottuvayal&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.286121,75.8466" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.8466,11.286121,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18/335</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0587&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 18/335, CWRDM Road, Palakottuvayal&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.286121,75.846656" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.846656,11.286121,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DAY TO DAY ENERGY</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0429&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; DAY TO DAY ENERGY, NEAR NAYARA PETROLL AIRPORT ROAD, VAIDYARANGADI, CALICUT&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.180582,75.885478" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.885478,11.180582,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Yadav EV Charging Station Wayanad Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0187&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Yadav EV Charging Station Wayanad Road, Kunnamangalam, Kozhikode 673571 Kerala India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.311639,75.882639" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.882639,11.311639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RJ EV HUB NARIKKUNI-POONOOR ROAD</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0436&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; RJ EV HUB NARIKKUNI-POONOOR ROAD, NELLIERYTHAZHAM. CALICUT PIN 673585 - CALICUT&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.375445,75.867273" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.867273,11.375445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MAS STATIONARY &amp; PLASTICS</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0153&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; MAS STATIONARY &amp; PLASTICS,TOYS MELE CHELARI, Mathappuzha road, near Refresh bakery, 673636&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.113028,75.890137" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.890137,11.113028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4XRF+RW9</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0205&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 4XRF+RW9, Gulf Batteries, SH28, Kondotty, Malappuram District, Kerala – 673638, India&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.14177,75.97489" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.97489,11.14177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JANASEVANAKENDRAM</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0008&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; JANASEVANAKENDRAM,NEAR MUNICIPALITY OFFICE,OPP:MOINKITTY VAIDYAR MEMMORIAL BUILDING,KONDOTTY, 673638&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.152637,75.956503" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.956503,11.152637,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vattaparamp</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0012&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Vattaparamp&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.16476,75.964012" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.964012,11.16476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karuvankallu</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0072&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Karuvankallu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.107266,75.956222" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.956222,11.107266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3W6P+CRM</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0043&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 3W6P+CRM, Kolappuram, Kerala 676305&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.061022,75.937013" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.937013,11.061022,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TP Manzil</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0068&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; TP Manzil, Kannamangalam po, Vengara, Malappuram Pincode: 676304&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.084802,75.9626" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.9626,11.084802,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mundakkulam junction</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0150&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Mundakkulam junction, Malappuram, 673638&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.190841,75.966505" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.966505,11.190841,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TRIP BY DAYTODAY VALILLAAPUZHA</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0543&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; TRIP BY DAYTODAY VALILLAAPUZHA, VAZHAKKAD-EDAVANNAPPARA ROAD, CHERUVAYUR P O PIN :673645&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.244626,75.9639" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.9639,11.244626,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kallanthode - Nayarkuzhi Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0573&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kallanthode - Nayarkuzhi Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.305228,75.954243" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.954243,11.305228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KATTANGAL</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0192&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; KATTANGAL,OPPOSIT BHARATH PETRILIUM,NIT,CALICUT&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.318347,75.944082" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.944082,11.318347,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kottapuram PO Pullickal Pincode:673637</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0007&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kottapuram PO Pullickal Pincode:673637&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.165109,75.933973" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.933973,11.165109,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KALARANTHIRI</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0203&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 6.6 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; KALARANTHIRI,MANIPURAM-THAMARASSERI ROAD,CALICUT PIN 673572&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.381349,75.933978" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.933978,11.381349,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>K-VOLT EV Charging Station  Palaparambhath  Omassery po Omassery 673582 kozhikkode</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0102&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; K-VOLT EV Charging Station  Palaparambhath  Omassery po Omassery 673582 kozhikkode&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.372113,75.958923" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.958923,11.372113,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EQ EV Prabha EV Charging Station Wayanad Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0121&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; EQ EV Prabha EV Charging Station Wayanad Road, Puthuppady Kozhikode, 673586&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.48095,75.975547" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.975547,11.48095,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EQ EV Prabha EV Charging Station Wayanad Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0041&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; EQ EV Prabha EV Charging Station Wayanad Road, Puthuppady Kozhikode, 673586&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.480961,75.975536" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.975536,11.480961,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Royal Enfield showroom (Backside)</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0117&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Royal Enfield showroom (Backside), Axis bank Agasthiamuzhi, Mukkam High school road ,673602&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.326088,75.988882" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.988882,11.326088,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>state</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0143&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; state, Mukkam - Maranchatty Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.320269,75.995735" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.995735,11.320269,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Payyoli - Cherandathur Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0118&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 727, Payyoli - Cherandathur Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.519344,75.628354" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.628354,11.519344,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (673525) - L1DC0100</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0100&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 673525,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.582273,75.757733" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.757733,11.582273,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eastmukku Ulliyeri Kozhikode 673323</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0104&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Eastmukku Ulliyeri Kozhikode 673323&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.446666,75.77275" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.77275,11.446666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vengalam</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0049&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Vengalam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.357055,75.741589" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.741589,11.357055,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kunduparampa</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0048&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kunduparampa&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.309571,75.779435" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.779435,11.309571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kunduparamba Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0094&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kunduparamba Road, Kozhikode&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.309456,75.779473" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.779473,11.309456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krishna Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0042&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Krishna Charging Station, Westhill , Kozhikode, Pincode: 673005&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.285395,75.771049" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.771049,11.285395,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iringadampalli Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0016&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Iringadampalli Road, Vrindavan Colony&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.280614,75.821953" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.821953,11.280614,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iringadampalli Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0427&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Iringadampalli Road, Vrindavan Colony&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.280616,75.82196" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.82196,11.280616,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuttoth EV Charging Station Iringadanpalli Junction Kozhikode Pin 673017</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0057&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kuttoth EV Charging Station Iringadanpalli Junction Kozhikode Pin 673017&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.280842,75.824525" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.824525,11.280842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palazhi</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0148&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Palazhi, Road, Pottammal, Kozhikode, Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.256365,75.811613" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.811613,11.256365,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thottummaram</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0271&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Thottummaram&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.230935,75.810547" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.810547,11.230935,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (673007) - L1DC0111</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0111&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 673007,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.231206,75.817949" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.817949,11.231206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Casa Marina Complex</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0097&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Casa Marina Complex, Near, AKG Hospital, Talap&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.886433,75.372169" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.372169,11.886433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jayanthi Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0275&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Jayanthi Road, Nallalam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.211878,75.814566" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.814566,11.211878,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MK ROAD THEKKEPURAM IDIYANGARA CALICUT 673003</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0541&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; MK ROAD THEKKEPURAM IDIYANGARA CALICUT 673003&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.238555,75.779354" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.779354,11.238555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Railwaystation 4th Platform Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0550&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Railwaystation 4th Platform Road, Kuttichira&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.246618,75.780244" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.780244,11.246618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Homeland Builders</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0267&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Homeland Builders, PT Usha Road, Vellayil, Kozhikode 673032&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.259223,75.775427" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.775427,11.259223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bike spot Ev service</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0040&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Bike spot Ev service, Aravind crossroad (AG road) old land&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.254704,75.777984" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.777984,11.254704,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (673032) - L1DC0179</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0179&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 673032,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.252883,75.775394" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.775394,11.252883,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mananchira</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0584&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Mananchira&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.253202,75.775252" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.775252,11.253202,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuniyil Kav Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0585&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kuniyil Kav Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.264203,75.784435" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.784435,11.264203,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Naduvattum</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0281&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Naduvattum&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.191618,75.804353" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.804353,11.191618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ummalathoor</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0177&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Ummalathoor&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.268359,75.831119" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.831119,11.268359,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (673591) - L1DC0088</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0088&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 673591,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.700044,76.107115" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.107115,11.700044,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>National Highway 766</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0534&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; National Highway 766&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.641312,76.110098" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.110098,11.641312,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KLR EV Charging Station chettyarammal Wandoor Malappuram Kerala 679328</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0103&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; KLR EV Charging Station chettyarammal Wandoor Malappuram Kerala 679328&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.18497,76.234619" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.234619,11.18497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PAYYANADAN EV BY DAYTODAY</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0280&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; PAYYANADAN EV BY DAYTODAY,OOTY ROAD,HIGHSCOOL PADI,NEAR,BHARAT PETROLIUM&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.106484,76.230246" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.230246,11.106484,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nilambur Malappuram Road Ernad Malappuram</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0200&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Nilambur Malappuram Road Ernad Malappuram, 676123 Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.175643,76.133004" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.133004,11.175643,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>69/2100</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0718&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 69/2100, Pallimukku&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.213095,76.224403" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.224403,11.213095,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SHEEBA'S EV HUB BY DAYTODAY PALAMADAM</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0579&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SHEEBA'S EV HUB BY DAYTODAY PALAMADAM, KARAD, P. O VANDOOR, MALAPURAM DIS Palamadam, Karad Post, Wandoor, Kerala 679339&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.227397,76.256935" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.256935,11.227397,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Evas hotal and coolbar  college road mampad Pincode:676542</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0031&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Evas hotal and coolbar  college road mampad Pincode:676542&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.24475,76.183138" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.183138,11.24475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Evas hotal and coolbar  areacode puthalam</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0033&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Evas hotal and coolbar  areacode puthalam&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.23117,76.054237" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.054237,11.23117,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Down Hill Malappuram</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0140&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Down Hill Malappuram, 676505 Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.043823,76.072708" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.072708,11.043823,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>THUSHARAGIRI ROAD KODANCHERI CALICUT 673580</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0517&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; THUSHARAGIRI ROAD KODANCHERI CALICUT 673580&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.431616,76.007127" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.007127,11.431616,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Erode Bakes</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0194&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Erode Bakes, NH 47, near sri plus mahal, Erode Bakes, NH 47, near sri plus mahal, Perundurai, Tamil Nadu 638056, Tamil Nadu 638056&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.556565,76.037647" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.037647,11.556565,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mylanchi Fancy Near St. Jude Church Ooty Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0160&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Mylanchi Fancy Near St. Jude Church Ooty Road, Chundale Wayanad – 673123&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.574713,76.0599" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.0599,11.574713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AL AMEEMI BY DAY TO DAY</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0106&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; AL AMEEMI BY DAY TO DAY, THEKKE BAZAR, STADIUM ROAD, PAYYANNUR&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=12.104772,75.209056" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.209056,12.104772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paramount EV Charging Station</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0010&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Paramount EV Charging Station, Panathur Road, Mavungal, Kasaragod, pin: 671531&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=12.339191,75.107506" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.107506,12.339191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EK Nayanar Co Operative Hospital</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0175&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; EK Nayanar Co Operative Hospital, 4th Mile, Chengala, Kasaragod Pincode: 671123&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=12.510384,75.035205" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.035205,12.510384,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (671531) - L1DC0122</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0122&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Kerala&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 671531,Kerala&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=12.40211,75.204041" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>75.204041,12.40211,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Choozhal Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0317&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Choozhal Road&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=8.30815,77.135831" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.135831,8.30815,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3F 198/3G</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0531&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 3F 198/3G, K&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.999387,77.230132" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.230132,10.999387,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Singampunari</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0152&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Singampunari, Near Mahadev Nursing Home&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=10.183451,78.418645" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>78.418645,10.183451,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (641001) - L1DC0422</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0422&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 641001,Tamil Nadu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.009721,76.958799" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.958799,11.009721,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SF No 237/1B2</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0401&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 10.0 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; SF No 237/1B2&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.045585,76.900394" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.900394,11.045585,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roots EV - Battery Operated Electric Vehicles Manufacturer</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0357&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 6.6 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Roots EV - Battery Operated Electric Vehicles Manufacturer, Electric Golf Cart Company, Club Car &amp; Buggy Carts for Sale India 641031&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.106189,76.943805" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>76.943805,11.106189,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6/13</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0342&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 6/13&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.112224,77.134189" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.134189,11.112224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A2A car wash</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0327&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; A2A car wash, 14/1, Perundurai Road, Playapalyam, Piruvu, near one fine day Hotel EB Officer's Colony, Erode  638011&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.328493,77.696444" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.696444,11.328493,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kongu Nagar</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0466&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 72, Kongu Nagar, Kalliaynkadu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.330601,77.724336" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.724336,11.330601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tiruppur Road</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0716&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Tiruppur Road, Chinnakarai&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.053702,77.326832" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>77.326832,11.053702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bolt.Earth Station (637001) - L1DC0237</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0237&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; 637001,Tamil Nadu&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=11.215266,78.173473" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>78.173473,11.215266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalpana Street Name: Vikasha Radial</name>
+      <description>&lt;b&gt;Operator:&lt;/b&gt; Bolt.Earth&lt;br/&gt;&lt;b&gt;Charger ID:&lt;/b&gt; L1DC0086&lt;br/&gt;&lt;b&gt;Connector:&lt;/b&gt; Type-6 DC Fast / Type-7 AC Dual&lt;br/&gt;&lt;b&gt;Power Rating:&lt;/b&gt; 3.3 kW&lt;br/&gt;&lt;b&gt;State:&lt;/b&gt; Tamil Nadu&lt;br/&gt;&lt;b&gt;Address:&lt;/b&gt; Kalpana Street Name: Vikasha Radial, Crown Road area,Auroville 605101 (Pondicherry), Tamil Nadu, India Landmark: Humanscapes 605101&lt;br/&gt;&lt;b&gt;Status:&lt;/b&gt; AVAILABLE&lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.google.com/maps/dir/?api=1&amp;destination=12.002165,79.813916" target="_blank"&gt;Navigate in Google Maps&lt;/a&gt;</description>
+      <styleUrl>#fastChargerIcon</styleUrl>
+      <Point>
+        <coordinates>79.813916,12.002165,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
