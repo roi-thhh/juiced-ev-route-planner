@@ -306,8 +306,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const script = document.createElement("script");
     script.id = "googleMapsScript";
-    // Load Maps and Geometry libraries
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&libraries=geometry&callback=onGoogleMapsReady`;
+    // Load Maps, Geometry, and Places libraries
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&libraries=geometry,places&callback=onGoogleMapsReady`;
     script.async = true;
     script.defer = true;
     script.onerror = () => {
@@ -624,35 +624,40 @@ document.addEventListener("DOMContentLoaded", () => {
     renderEvProfiles();
 
     try {
-      let chargerData = null;
-      if (window.JUICED_EMBEDDED_CHARGERS && window.JUICED_EMBEDDED_CHARGERS.chargers) {
-        chargerData = window.JUICED_EMBEDDED_CHARGERS;
+      let rawList = [];
+      if (window.JUICED_EMBEDDED_CHARGERS) {
+        rawList = Array.isArray(window.JUICED_EMBEDDED_CHARGERS)
+          ? window.JUICED_EMBEDDED_CHARGERS
+          : (window.JUICED_EMBEDDED_CHARGERS.chargers || []);
       }
       try {
         const chargerResp = await fetch("/api/chargers");
         if (chargerResp.ok) {
-          chargerData = await chargerResp.json();
+          const cData = await chargerResp.json();
+          rawList = Array.isArray(cData) ? cData : (cData.chargers || rawList);
         }
       } catch (err) {
-        console.log("Server chargers endpoint unreachable, trying local assets:", err);
+        // standalone / offline mode
       }
 
-      if (!chargerData) {
+      if (!rawList || rawList.length === 0) {
         // Fallback to bundled chargers.json for standalone Android APK
         try {
           const localResp = await fetch("./chargers.json");
           if (localResp.ok) {
-            chargerData = await localResp.json();
+            const cData = await localResp.json();
+            rawList = Array.isArray(cData) ? cData : (cData.chargers || []);
           }
         } catch (fetchErr) {
           console.log("Local fetch chargers.json notice:", fetchErr);
         }
       }
 
-      if (chargerData && chargerData.chargers) {
-        allStations = chargerData.chargers;
-        networkStatsBadge.innerHTML = `<span>⚡ ${allStations.length} Stations Loaded</span>`;
+      if (rawList && rawList.length > 0) {
+        allStations = rawList;
+        networkStatsBadge.innerHTML = `<span class="pulse-status-dot"></span> ${allStations.length} STATIONS`;
         if (leafletMap) renderLeafletNetwork(allStations);
+        if (gMap) renderGoogleNetwork(allStations);
       }
     } catch (e) {
       console.warn("Data loading notice:", e);
@@ -720,10 +725,211 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ====================================================
-  // 5. Autocomplete & Geocoding (Fallback & Presets)
+  // 5. Comprehensive South India Offline Database & Geocoding
   // ====================================================
+  const SOUTH_INDIA_PRESET_PLACES = [
+    { label: "Kochi, Kerala", name: "Kochi", state: "Kerala", latitude: 9.9312, longitude: 76.2673 },
+    { label: "Ernakulam, Kerala", name: "Ernakulam", state: "Kerala", latitude: 9.9816, longitude: 76.2999 },
+    { label: "Coimbatore, Tamil Nadu", name: "Coimbatore", state: "Tamil Nadu", latitude: 11.0168, longitude: 76.9558 },
+    { label: "Kozhikode (Calicut), Kerala", name: "Kozhikode", state: "Kerala", latitude: 11.2588, longitude: 75.7804 },
+    { label: "Thrissur, Kerala", name: "Thrissur", state: "Kerala", latitude: 10.5276, longitude: 76.2144 },
+    { label: "Thiruvananthapuram (Trivandrum), Kerala", name: "Thiruvananthapuram", state: "Kerala", latitude: 8.5241, longitude: 76.9366 },
+    { label: "Munnar, Idukki, Kerala", name: "Munnar", state: "Kerala", latitude: 10.0889, longitude: 77.0595 },
+    { label: "Palakkad, Kerala", name: "Palakkad", state: "Kerala", latitude: 10.7867, longitude: 76.6548 },
+    { label: "Wayanad (Kalpetta), Kerala", name: "Wayanad", state: "Kerala", latitude: 11.6103, longitude: 76.0828 },
+    { label: "Kannur, Kerala", name: "Kannur", state: "Kerala", latitude: 11.8745, longitude: 75.3704 },
+    { label: "Kasaragod, Kerala", name: "Kasaragod", state: "Kerala", latitude: 12.5102, longitude: 74.9852 },
+    { label: "Kollam, Kerala", name: "Kollam", state: "Kerala", latitude: 8.8932, longitude: 76.6141 },
+    { label: "Alappuzha (Alleppey), Kerala", name: "Alappuzha", state: "Kerala", latitude: 9.4981, longitude: 76.3388 },
+    { label: "Kottayam, Kerala", name: "Kottayam", state: "Kerala", latitude: 9.5916, longitude: 76.5222 },
+    { label: "Malappuram, Kerala", name: "Malappuram", state: "Kerala", latitude: 11.0732, longitude: 76.0740 },
+    { label: "Idukki (Painavu), Kerala", name: "Idukki", state: "Kerala", latitude: 9.8494, longitude: 76.9806 },
+    { label: "Pathanamthitta, Kerala", name: "Pathanamthitta", state: "Kerala", latitude: 9.2648, longitude: 76.7870 },
+    { label: "Ooty (Udhagamandalam), Tamil Nadu", name: "Ooty", state: "Tamil Nadu", latitude: 11.4102, longitude: 76.6950 },
+    { label: "Kodaikanal, Tamil Nadu", name: "Kodaikanal", state: "Tamil Nadu", latitude: 10.2381, longitude: 77.4892 },
+    { label: "Madurai, Tamil Nadu", name: "Madurai", state: "Tamil Nadu", latitude: 9.9252, longitude: 78.1198 },
+    { label: "Salem, Tamil Nadu", name: "Salem", state: "Tamil Nadu", latitude: 11.6643, longitude: 78.1460 },
+    { label: "Chennai, Tamil Nadu", name: "Chennai", state: "Tamil Nadu", latitude: 13.0827, longitude: 80.2707 },
+    { label: "Bengaluru, Karnataka", name: "Bengaluru", state: "Karnataka", latitude: 12.9716, longitude: 77.5946 },
+    { label: "Mysuru (Mysore), Karnataka", name: "Mysuru", state: "Karnataka", latitude: 12.2958, longitude: 76.6394 },
+    { label: "Mangaluru (Mangalore), Karnataka", name: "Mangaluru", state: "Karnataka", latitude: 12.9141, longitude: 74.8560 },
+    { label: "Pollachi, Tamil Nadu", name: "Pollachi", state: "Tamil Nadu", latitude: 10.6586, longitude: 77.0094 },
+    { label: "Tiruppur, Tamil Nadu", name: "Tiruppur", state: "Tamil Nadu", latitude: 11.1085, longitude: 77.3411 },
+    { label: "Erode, Tamil Nadu", name: "Erode", state: "Tamil Nadu", latitude: 11.3410, longitude: 77.7172 },
+    { label: "Dindigul, Tamil Nadu", name: "Dindigul", state: "Tamil Nadu", latitude: 10.3673, longitude: 77.9803 },
+    { label: "Tirunelveli, Tamil Nadu", name: "Tirunelveli", state: "Tamil Nadu", latitude: 8.7139, longitude: 77.7567 },
+    { label: "Kanyakumari, Tamil Nadu", name: "Kanyakumari", state: "Tamil Nadu", latitude: 8.0883, longitude: 77.5385 },
+    { label: "Vagamon, Kerala", name: "Vagamon", state: "Kerala", latitude: 9.6865, longitude: 76.9056 },
+    { label: "Thekkady (Kumily), Kerala", name: "Thekkady", state: "Kerala", latitude: 9.6031, longitude: 77.1681 },
+    { label: "Guruvayur, Kerala", name: "Guruvayur", state: "Kerala", latitude: 10.5947, longitude: 76.0379 },
+    { label: "Varkala, Kerala", name: "Varkala", state: "Kerala", latitude: 8.7379, longitude: 76.7163 },
+    { label: "Kovalam, Kerala", name: "Kovalam", state: "Kerala", latitude: 8.4004, longitude: 76.9787 },
+    { label: "Sulthan Bathery, Kerala", name: "Sulthan Bathery", state: "Kerala", latitude: 11.6634, longitude: 76.2570 },
+    { label: "Mananthavady, Kerala", name: "Mananthavady", state: "Kerala", latitude: 11.8029, longitude: 76.0033 },
+    { label: "Nilambur, Kerala", name: "Nilambur", state: "Kerala", latitude: 11.2776, longitude: 76.2263 },
+    { label: "Perinthalmanna, Kerala", name: "Perinthalmanna", state: "Kerala", latitude: 10.9760, longitude: 76.2255 },
+    { label: "Tirur, Kerala", name: "Tirur", state: "Kerala", latitude: 10.9148, longitude: 75.9228 },
+    { label: "Ponnani, Kerala", name: "Ponnani", state: "Kerala", latitude: 10.7742, longitude: 75.9251 },
+    { label: "Shoranur, Kerala", name: "Shoranur", state: "Kerala", latitude: 10.7634, longitude: 76.2785 },
+    { label: "Ottapalam, Kerala", name: "Ottapalam", state: "Kerala", latitude: 10.7717, longitude: 76.3789 },
+    { label: "Chalakudy, Kerala", name: "Chalakudy", state: "Kerala", latitude: 10.3070, longitude: 76.3335 },
+    { label: "Kodungallur, Kerala", name: "Kodungallur", state: "Kerala", latitude: 10.2289, longitude: 76.2046 },
+    { label: "Angamaly, Kerala", name: "Angamaly", state: "Kerala", latitude: 10.1960, longitude: 76.3860 },
+    { label: "Aluva, Kerala", name: "Aluva", state: "Kerala", latitude: 10.1076, longitude: 76.3516 },
+    { label: "Perumbavoor, Kerala", name: "Perumbavoor", state: "Kerala", latitude: 10.1118, longitude: 76.4764 },
+    { label: "Muvattupuzha, Kerala", name: "Muvattupuzha", state: "Kerala", latitude: 9.9818, longitude: 76.5789 },
+    { label: "Thodupuzha, Kerala", name: "Thodupuzha", state: "Kerala", latitude: 9.8959, longitude: 76.7184 },
+    { label: "Kothamangalam, Kerala", name: "Kothamangalam", state: "Kerala", latitude: 10.0601, longitude: 76.6268 },
+    { label: "Cherthala, Kerala", name: "Cherthala", state: "Kerala", latitude: 9.6845, longitude: 76.3331 },
+    { label: "Kayamkulam, Kerala", name: "Kayamkulam", state: "Kerala", latitude: 9.1726, longitude: 76.5000 },
+    { label: "Mavelikkara, Kerala", name: "Mavelikkara", state: "Kerala", latitude: 9.2674, longitude: 76.5513 },
+    { label: "Changanassery, Kerala", name: "Changanassery", state: "Kerala", latitude: 9.4447, longitude: 76.5367 },
+    { label: "Thiruvalla, Kerala", name: "Thiruvalla", state: "Kerala", latitude: 9.3835, longitude: 76.5741 },
+    { label: "Adoor, Kerala", name: "Adoor", state: "Kerala", latitude: 9.1530, longitude: 76.7356 },
+    { label: "Pandalam, Kerala", name: "Pandalam", state: "Kerala", latitude: 9.2312, longitude: 76.6806 },
+    { label: "Attingal, Kerala", name: "Attingal", state: "Kerala", latitude: 8.6963, longitude: 76.8141 },
+    { label: "Neyyattinkara, Kerala", name: "Neyyattinkara", state: "Kerala", latitude: 8.4035, longitude: 77.0863 },
+    { label: "Nedumangad, Kerala", name: "Nedumangad", state: "Kerala", latitude: 8.6015, longitude: 77.0028 },
+    { label: "Hosur, Tamil Nadu", name: "Hosur", state: "Tamil Nadu", latitude: 12.7409, longitude: 77.8253 },
+    { label: "Krishnagiri, Tamil Nadu", name: "Krishnagiri", state: "Tamil Nadu", latitude: 12.5266, longitude: 78.2144 },
+    { label: "Dharmapuri, Tamil Nadu", name: "Dharmapuri", state: "Tamil Nadu", latitude: 12.1211, longitude: 78.1582 },
+    { label: "Karur, Tamil Nadu", name: "Karur", state: "Tamil Nadu", latitude: 10.9601, longitude: 78.0766 },
+    { label: "Namakkal, Tamil Nadu", name: "Namakkal", state: "Tamil Nadu", latitude: 11.2189, longitude: 78.1674 },
+    { label: "Thanjavur, Tamil Nadu", name: "Thanjavur", state: "Tamil Nadu", latitude: 10.7870, longitude: 79.1378 },
+    { label: "Tiruchirappalli (Trichy), Tamil Nadu", name: "Tiruchirappalli", state: "Tamil Nadu", latitude: 10.7905, longitude: 78.7047 },
+    { label: "Theni, Tamil Nadu", name: "Theni", state: "Tamil Nadu", latitude: 10.0104, longitude: 77.4768 }
+  ];
+
+  function searchOfflinePlaces(query) {
+    if (!query) return [];
+    const q = query.toLowerCase().trim();
+    const results = [];
+
+    // 1. Search in comprehensive preset cities & towns
+    SOUTH_INDIA_PRESET_PLACES.forEach(p => {
+      if (p.label.toLowerCase().includes(q) || p.name.toLowerCase().includes(q)) {
+        results.push({
+          label: p.label,
+          latitude: p.latitude,
+          longitude: p.longitude,
+          source: "preset"
+        });
+      }
+    });
+
+    // 2. Search in all 183 loaded Bolt.Earth charging stations
+    if (allStations && allStations.length > 0) {
+      allStations.forEach(s => {
+        const nameMatch = s.name && s.name.toLowerCase().includes(q);
+        const addrMatch = s.address && s.address.toLowerCase().includes(q);
+        const idMatch = s.id && s.id.toLowerCase().includes(q);
+        if (nameMatch || addrMatch || idMatch) {
+          results.push({
+            label: `⚡ ${s.name} (${s.address || s.state || 'Station'})`,
+            latitude: s.latitude,
+            longitude: s.longitude,
+            source: "station"
+          });
+        }
+      });
+    }
+
+    return results.slice(0, 7);
+  }
+
+  async function geocodeQuery(query) {
+    const q = query.trim();
+    if (q.length < 2) return [];
+
+    // Instant offline matches
+    const offlineMatches = searchOfflinePlaces(q);
+
+    // If running in local web mode with server available
+    if (window.location.protocol.startsWith("http")) {
+      try {
+        const resp = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data.results && data.results.length > 0) {
+            return data.results;
+          }
+        }
+      } catch (_) {}
+    }
+
+    // Direct online geocoding via Photon Komoot (works worldwide on Android mobile data / Wi-Fi)
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2400);
+      const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&lat=10.5&lon=77.0&limit=6`;
+      const resp = await fetch(url, { signal: controller.signal });
+      clearTimeout(timeoutId);
+      if (resp.ok) {
+        const data = await resp.json();
+        const onlinePlaces = [];
+        for (const feat of (data.features || [])) {
+          const p = feat.properties || {};
+          const coords = feat.geometry ? feat.geometry.coordinates : null;
+          if (coords && coords.length >= 2) {
+            const parts = [p.name];
+            if (p.city && p.city !== p.name) parts.push(p.city);
+            if (p.state) parts.push(p.state);
+            onlinePlaces.push({
+              label: parts.filter(Boolean).join(", "),
+              latitude: coords[1],
+              longitude: coords[0]
+            });
+          }
+        }
+        if (onlinePlaces.length > 0) {
+          // Merge unique results
+          const seen = new Set();
+          const merged = [];
+          [...onlinePlaces, ...offlineMatches].forEach(item => {
+            const key = `${item.latitude.toFixed(3)},${item.longitude.toFixed(3)}`;
+            if (!seen.has(key)) {
+              seen.add(key);
+              merged.push(item);
+            }
+          });
+          return merged.slice(0, 8);
+        }
+      }
+    } catch (_) {}
+
+    return offlineMatches;
+  }
+
+  async function resolveLocationInput(text, fallbackCoords) {
+    if (!text || !text.trim()) return fallbackCoords;
+    const clean = text.trim();
+
+    // Check if input is already "lat, lng" format
+    const coordMatch = clean.match(/^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$/);
+    if (coordMatch) {
+      return [parseFloat(coordMatch[1]), parseFloat(coordMatch[3])];
+    }
+
+    // Check offline dictionary first (instant exact match)
+    const offlineList = searchOfflinePlaces(clean);
+    if (offlineList.length > 0) {
+      return [offlineList[0].latitude, offlineList[0].longitude];
+    }
+
+    // Try geocoder
+    try {
+      const places = await geocodeQuery(clean);
+      if (places && places.length > 0) {
+        return [places[0].latitude, places[0].longitude];
+      }
+    } catch (_) {}
+
+    return fallbackCoords;
+  }
+
   function setupAutocomplete(inputEl, dropdownEl, onSelect) {
     let debounceTimer = null;
+
     inputEl.addEventListener("input", () => {
       clearTimeout(debounceTimer);
       const query = inputEl.value.trim();
@@ -731,21 +937,43 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdownEl.classList.remove("active");
         return;
       }
+
+      // Show instant offline suggestions immediately (0ms delay)
+      const instantMatches = searchOfflinePlaces(query);
+      if (instantMatches.length > 0) {
+        renderDropdown(dropdownEl, instantMatches, (place) => {
+          inputEl.value = place.label.replace(/^⚡\s*/, "");
+          dropdownEl.classList.remove("active");
+          onSelect(place.latitude, place.longitude, place.label);
+        });
+      }
+
+      // Query online geocoder after debounce for additional results
       debounceTimer = setTimeout(async () => {
         try {
-          const resp = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`);
-          if (resp.ok) {
-            const data = await resp.json();
-            renderDropdown(dropdownEl, data.results, (place) => {
-              inputEl.value = place.label;
+          const places = await geocodeQuery(query);
+          if (places && places.length > 0) {
+            renderDropdown(dropdownEl, places, (place) => {
+              inputEl.value = place.label.replace(/^⚡\s*/, "");
               dropdownEl.classList.remove("active");
               onSelect(place.latitude, place.longitude, place.label);
             });
           }
         } catch (e) {
-          console.error("Geocode fetch error:", e);
+          console.error("Geocode error:", e);
         }
-      }, 250);
+      }, 200);
+    });
+
+    // Auto-resolve on blur / change
+    inputEl.addEventListener("change", async () => {
+      const val = inputEl.value.trim();
+      if (val.length >= 2) {
+        const resolved = await resolveLocationInput(val, null);
+        if (resolved) {
+          onSelect(resolved[0], resolved[1], val);
+        }
+      }
     });
 
     document.addEventListener("click", (e) => {
@@ -770,12 +998,14 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdownEl.classList.add("active");
   }
 
-  setupAutocomplete(originInput, originDropdown, (lat, lng) => {
+  setupAutocomplete(originInput, originDropdown, (lat, lng, label) => {
     currentOriginCoords = [lat, lng];
+    if (label) originInput.value = label.replace(/^⚡\s*/, "");
   });
 
-  setupAutocomplete(destInput, destDropdown, (lat, lng) => {
+  setupAutocomplete(destInput, destDropdown, (lat, lng, label) => {
     currentDestCoords = [lat, lng];
+    if (label) destInput.value = label.replace(/^⚡\s*/, "");
   });
 
   // Swap Points
@@ -846,27 +1076,37 @@ document.addEventListener("DOMContentLoaded", () => {
   btnPlanRoute.addEventListener("click", () => triggerRoutePlanning(false));
 
   async function triggerRoutePlanning(isSilent = false) {
-    if (!currentOriginCoords || !currentDestCoords) {
-      if (!isSilent) alert("Please select both an Origin and Destination.");
-      return;
-    }
-
     planSpinner.style.display = "inline-block";
     btnPlanRoute.disabled = true;
 
-    const payload = {
-      origin: currentOriginCoords,
-      destination: currentDestCoords,
-      ev_model: selectedEvModel,
-      custom_range_km: selectedEvModel === "custom" ? parseFloat(customRangeInput.value) : null,
-      start_soc: parseFloat(sliderStartSoc.value),
-      reserve_soc: parseFloat(sliderReserveSoc.value),
-      corridor_width_km: parseFloat(sliderCorridorWidth.value),
-      detour_search_radius_km: 12.0,
-      power_filter_kw: activePowerFilter
-    };
-
     try {
+      // 1. Auto-resolve typed location text if user typed without picking from dropdown
+      if (originInput.value && originInput.value.trim()) {
+        const resolvedOrigin = await resolveLocationInput(originInput.value.trim(), currentOriginCoords);
+        if (resolvedOrigin) currentOriginCoords = resolvedOrigin;
+      }
+      if (destInput.value && destInput.value.trim()) {
+        const resolvedDest = await resolveLocationInput(destInput.value.trim(), currentDestCoords);
+        if (resolvedDest) currentDestCoords = resolvedDest;
+      }
+
+      if (!currentOriginCoords || !currentDestCoords) {
+        if (!isSilent) alert("Please enter both an Origin and Destination location.");
+        return;
+      }
+
+      const payload = {
+        origin: currentOriginCoords,
+        destination: currentDestCoords,
+        ev_model: selectedEvModel,
+        custom_range_km: selectedEvModel === "custom" ? parseFloat(customRangeInput.value) : null,
+        start_soc: parseFloat(sliderStartSoc.value),
+        reserve_soc: parseFloat(sliderReserveSoc.value),
+        corridor_width_km: parseFloat(sliderCorridorWidth.value),
+        detour_search_radius_km: 12.0,
+        power_filter_kw: activePowerFilter
+      };
+
       let result = null;
       try {
         const resp = await fetch("/api/route/plan", {
@@ -990,17 +1230,55 @@ document.addEventListener("DOMContentLoaded", () => {
   async function computeClientRoutePlan(payload) {
     const origin = payload.origin;
     const dest = payload.destination;
-    const osrmUrl = `https://router.project-osrm.org/route/v1/driving/${origin[1]},${origin[0]};${dest[1]},${dest[0]}?overview=full&geometries=geojson&steps=true`;
 
-    const osrmResp = await fetch(osrmUrl);
-    if (!osrmResp.ok) throw new Error("Could not reach OSRM routing service.");
-    const osrmData = await osrmResp.json();
-    if (!osrmData.routes || osrmData.routes.length === 0) throw new Error("No route found between points.");
+    let route = null;
+    let coords = [];
+    let totalDistKm = 0;
+    let totalDurationMin = 0;
 
-    const route = osrmData.routes[0];
-    const totalDistKm = route.distance / 1000.0;
-    const totalDurationMin = route.duration / 60.0;
-    const coords = route.geometry.coordinates; // [[lng, lat], ...]
+    // Multi-provider OSRM routing with timeout & failover
+    const routingProviders = [
+      `https://router.project-osrm.org/route/v1/driving/${origin[1]},${origin[0]};${dest[1]},${dest[0]}?overview=full&geometries=geojson&steps=true`,
+      `https://routing.openstreetmap.de/routed-car/route/v1/driving/${origin[1]},${origin[0]};${dest[1]},${dest[0]}?overview=full&geometries=geojson&steps=true`
+    ];
+
+    for (const pUrl of routingProviders) {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5500);
+        const osrmResp = await fetch(pUrl, { signal: controller.signal });
+        clearTimeout(timeoutId);
+        if (osrmResp.ok) {
+          const osrmData = await osrmResp.json();
+          if (osrmData.routes && osrmData.routes.length > 0) {
+            route = osrmData.routes[0];
+            totalDistKm = route.distance / 1000.0;
+            totalDurationMin = route.duration / 60.0;
+            coords = route.geometry.coordinates;
+            break;
+          }
+        }
+      } catch (provErr) {
+        console.warn("Routing provider notice:", provErr);
+      }
+    }
+
+    // Intelligent geodesic highway path fallback if offline or OSRM unavailable
+    if (!coords || coords.length < 2) {
+      const straightDist = distKmBetween(origin[0], origin[1], dest[0], dest[1]);
+      totalDistKm = Math.round(straightDist * 1.22 * 10) / 10; // ~1.22x highway road winding factor
+      totalDurationMin = Math.round((totalDistKm / 42.0) * 60); // ~42 km/h average two-wheeler pace
+      coords = [];
+      const steps = 25;
+      for (let s = 0; s <= steps; s++) {
+        const ratio = s / steps;
+        // Add subtle highway curvature
+        const arcOffset = Math.sin(ratio * Math.PI) * 0.02;
+        const curLat = origin[0] + ratio * (dest[0] - origin[0]) + arcOffset;
+        const curLng = origin[1] + ratio * (dest[1] - origin[1]);
+        coords.push([curLng, curLat]);
+      }
+    }
 
     const corridorWidth = payload.corridor_width_km || 3.0;
     const detourRadius = payload.detour_search_radius_km || 12.0;
