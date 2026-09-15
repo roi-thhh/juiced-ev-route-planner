@@ -1705,3 +1705,15 @@ input[type="range"].brutal-range-slider::-webkit-slider-thumb:hover {
   transform: translate(1px, 1px);
   box-shadow: 1px 1px 0px #000;
 }
+
+/* ==========================================================================
+   Google Maps UI Clutter Removal (Hide Map/Satellite button & default controls)
+   ========================================================================== */
+.gm-style-mtc,
+.gm-bundled-control,
+.gmnoprint:has(.gm-style-mtc),
+div[aria-label="Map Type"],
+div[aria-label="Toggle map type"] {
+  display: none !important;
+}
+

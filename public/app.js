@@ -366,11 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
       center: { lat: 10.5, lng: 77.0 },
       zoom: 7,
       styles: darkMapStyle,
-      mapTypeControl: true,
-      mapTypeControlOptions: {
-        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-        position: google.maps.ControlPosition.TOP_LEFT
-      },
+      mapTypeControl: false,
       fullscreenControl: false,
       streetViewControl: false
     });
